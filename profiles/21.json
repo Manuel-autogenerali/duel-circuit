@@ -1,0 +1,26 @@
+{
+  "id": 21,
+  "origin": "obelisk",
+  "public": "El Experto en Dragones busca soluciones en secuencias que conoce muy bien. Su especialización puede cerrarle alternativas cuando cambia el formato.",
+  "history": "El Experto en Dragones busca soluciones en secuencias que conoce muy bien. Su especialización puede cerrarle alternativas cuando cambia el formato. En el circuito ficticio, su rutina tiene una marca propia: ordena sus líneas alrededor de piezas de combo. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, vuelve a la secuencia principal. Cuando gana, prueba una rama nueva a partir de lo que funcionó. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Preparó una bifurcación para cuando le corten su secuencia de dragones. Si consigue ejecutarla en una fecha real, tendrá una razón concreta para flexibilizar su lista.",
+  "habit": "Ordena sus líneas alrededor de piezas de combo",
+  "loss": "Vuelve a la secuencia principal",
+  "win": "Prueba una rama nueva a partir de lo que funcionó",
+  "status": "Activo",
+  "behavior": "El Experto en Dragones busca soluciones en secuencias que conoce muy bien. Su especialización puede cerrarle alternativas cuando cambia el formato.",
+  "relationship": "Su aporte al equipo se ve cuando prueba una rama nueva a partir de lo que funcionó.",
+  "mentality": "Ordena sus líneas alrededor de piezas de combo. Vuelve a la secuencia principal.",
+  "positive": [
+    "Sangre de Dragón",
+    "Cadena dracónica",
+    "Disciplina de Despegue de Dragones"
+  ],
+  "negative": [
+    "Demasiado Dragón",
+    "Visión de túnel",
+    "Presión de Despegue de Dragones"
+  ],
+  "exclusive": "Despegue de Dragones",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

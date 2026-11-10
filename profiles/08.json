@@ -1,0 +1,26 @@
+{
+  "id": 8,
+  "origin": "lair",
+  "public": "Su elegancia excéntrica contrasta con una técnica consistente. Cuando aparece, su flexibilidad le permite sostener planes de juego distintos.",
+  "history": "Su elegancia excéntrica contrasta con una técnica consistente. Cuando aparece, su flexibilidad le permite sostener planes de juego distintos. En el circuito ficticio, su rutina tiene una marca propia: prepara una opción discreta junto al plan principal. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, se concede una ronda para recuperar precisión. Cuando gana, celebra con una observación inesperada. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Al preparar un cruce procura conservar una alternativa elegante que pueda ejecutar bajo presión. A sus compañeros les toca anticipar cuándo contará con él y aprovechar su versatilidad sin cargarle toda la fecha.",
+  "habit": "Prepara una opción discreta junto al plan principal",
+  "loss": "Se concede una ronda para recuperar precisión",
+  "win": "Celebra con una observación inesperada",
+  "status": "Activo",
+  "behavior": "Su elegancia excéntrica contrasta con una técnica consistente. Cuando aparece, su flexibilidad le permite sostener planes de juego distintos.",
+  "relationship": "Su aporte al equipo se ve cuando celebra con una observación inesperada.",
+  "mentality": "Prepara una opción discreta junto al plan principal. Se concede una ronda para recuperar precisión.",
+  "positive": [
+    "Elegancia o Locura",
+    "Elegancia adaptable",
+    "Disciplina de Etiqueta de final"
+  ],
+  "negative": [
+    "Ausencia Estelar",
+    "Presencia intermitente",
+    "Presión de Etiqueta de final"
+  ],
+  "exclusive": "Etiqueta de final",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

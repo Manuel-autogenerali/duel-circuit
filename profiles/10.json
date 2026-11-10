@@ -1,0 +1,26 @@
+{
+  "id": 10,
+  "origin": "mujica",
+  "public": "Kevin aporta el ritmo agresivo del trío Mujica. Sus picos de rendimiento pueden cambiar una serie, pero le cuesta reproducirlos de una fecha a otra.",
+  "history": "Kevin aporta el ritmo agresivo del trío Mujica. Sus picos de rendimiento pueden cambiar una serie, pero le cuesta reproducirlos de una fecha a otra. En el circuito ficticio, su rutina tiene una marca propia: busca una apertura que fuerce reacción. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, baja el ritmo con ayuda de sus hermanos. Cuando gana, se ofrece a probar la línea más arriesgada. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. En un 3v3, su explosividad puede comprar tiempo para Johnny y abrirle una ruta a Thiago. La cuestión es reconocer cuándo sostener el impulso y cuándo dejar que el trío ordene la serie.",
+  "habit": "Busca una apertura que fuerce reacción",
+  "loss": "Baja el ritmo con ayuda de sus hermanos",
+  "win": "Se ofrece a probar la línea más arriesgada",
+  "status": "Activo",
+  "behavior": "Kevin aporta el ritmo agresivo del trío Mujica. Sus picos de rendimiento pueden cambiar una serie, pero le cuesta reproducirlos de una fecha a otra.",
+  "relationship": "Coordina el 3v3 con sus hermanos.",
+  "mentality": "Busca una apertura que fuerce reacción. Baja el ritmo con ayuda de sus hermanos.",
+  "positive": [
+    "Día de Gloria",
+    "Ráfaga inicial",
+    "Disciplina de Desborde Mujica"
+  ],
+  "negative": [
+    "Una de Cal y Una de Arena",
+    "Pulso desigual",
+    "Presión de Desborde Mujica"
+  ],
+  "exclusive": "Desborde Mujica",
+  "context": "team",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

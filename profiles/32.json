@@ -1,0 +1,26 @@
+{
+  "id": 32,
+  "origin": "haru",
+  "public": "Manu, el Subcampeón Eterno, figura segundo en el ranking narrativo de Dark Book tras Franco Parzano. Las rondas decisivas le exigen gestionar la presión.",
+  "history": "Manu, el Subcampeón Eterno, figura segundo en el ranking narrativo de Dark Book tras Franco Parzano. Las rondas decisivas le exigen gestionar la presión. En el circuito ficticio, su rutina tiene una marca propia: compara finales de práctica en el servidor. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, regresa al cruce que dejó sin resolver. Cuando gana, busca repetir la secuencia con otro rival. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Su objetivo es llegar a la última mesa con un plan tan familiar como el que ejecuta en el servidor. Una buena serie de práctica sirve si le enseña a decidir cuando pesa el resultado.",
+  "habit": "Compara finales de práctica en el servidor",
+  "loss": "Regresa al cruce que dejó sin resolver",
+  "win": "Busca repetir la secuencia con otro rival",
+  "status": "Activo",
+  "behavior": "Manu, el Subcampeón Eterno, figura segundo en el ranking narrativo de Dark Book tras Franco Parzano. Las rondas decisivas le exigen gestionar la presión.",
+  "relationship": "Su aporte al equipo se ve cuando busca repetir la secuencia con otro rival.",
+  "mentality": "Compara finales de práctica en el servidor. Regresa al cruce que dejó sin resolver.",
+  "positive": [
+    "El Segundo del Servidor",
+    "Registro del servidor",
+    "Disciplina de Duelo del Segundo"
+  ],
+  "negative": [
+    "La Maldición del Noveno",
+    "Último escalón",
+    "Presión de Duelo del Segundo"
+  ],
+  "exclusive": "Duelo del Segundo",
+  "context": "book",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

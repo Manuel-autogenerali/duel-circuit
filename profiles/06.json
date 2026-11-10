@@ -1,0 +1,26 @@
+{
+  "id": 6,
+  "origin": "dima",
+  "public": "El campeón de élite se apoya en una lectura de control precisa. Su agenda limita algunas fechas y exige que el equipo planifique con margen.",
+  "history": "El campeón de élite se apoya en una lectura de control precisa. Su agenda limita algunas fechas y exige que el equipo planifique con margen. En el circuito ficticio, su rutina tiene una marca propia: reconstruye las decisiones como un expediente. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, busca el punto exacto que cambió el duelo. Cuando gana, revisa las conclusiones antes de celebrar. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Antes de confirmar una fecha revisa su agenda y deja una lista corta de objetivos. Su ambición es que la precisión se note tanto en un local discreto como en un cuadro importante.",
+  "habit": "Reconstruye las decisiones como un expediente",
+  "loss": "Busca el punto exacto que cambió el duelo",
+  "win": "Revisa las conclusiones antes de celebrar",
+  "status": "Activo",
+  "behavior": "El campeón de élite se apoya en una lectura de control precisa. Su agenda limita algunas fechas y exige que el equipo planifique con margen.",
+  "relationship": "Su aporte al equipo se ve cuando revisa las conclusiones antes de celebrar.",
+  "mentality": "Reconstruye las decisiones como un expediente. Busca el punto exacto que cambió el duelo.",
+  "positive": [
+    "Mentalidad de Campeón",
+    "Cierre técnico",
+    "Disciplina de Alegato final"
+  ],
+  "negative": [
+    "Agenda de Abogado",
+    "Agenda cerrada",
+    "Presión de Alegato final"
+  ],
+  "exclusive": "Alegato final",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 11,
+  "origin": "mujica",
+  "public": "Johnny es la voz de la razón del trío Mujica. Su control estabiliza la mesa cuando sus hermanos prefieren acelerar el intercambio.",
+  "history": "Johnny es la voz de la razón del trío Mujica. Su control estabiliza la mesa cuando sus hermanos prefieren acelerar el intercambio. En el circuito ficticio, su rutina tiene una marca propia: ordena las observaciones después de la ronda. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, reconstruye el cruce sin buscar culpables. Cuando gana, devuelve atención al plan de los tres. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Si una fecha se desordena, Johnny busca una decisión que los tres puedan ejecutar. Su aporte se aprecia en los cruces largos, cuando el equipo necesita seguir un plan compartido.",
+  "habit": "Ordena las observaciones después de la ronda",
+  "loss": "Reconstruye el cruce sin buscar culpables",
+  "win": "Devuelve atención al plan de los tres",
+  "status": "Activo",
+  "behavior": "Johnny es la voz de la razón del trío Mujica. Su control estabiliza la mesa cuando sus hermanos prefieren acelerar el intercambio.",
+  "relationship": "Coordina el 3v3 con sus hermanos.",
+  "mentality": "Ordena las observaciones después de la ronda. Reconstruye el cruce sin buscar culpables.",
+  "positive": [
+    "Equilibrio del Trío",
+    "Ronda de consenso",
+    "Disciplina de Punto de equilibrio"
+  ],
+  "negative": [
+    "Dependencia Familiar",
+    "Sin referencia familiar",
+    "Presión de Punto de equilibrio"
+  ],
+  "exclusive": "Punto de equilibrio",
+  "context": "team",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

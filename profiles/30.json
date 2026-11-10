@@ -1,0 +1,26 @@
+{
+  "id": 30,
+  "origin": "mujica",
+  "public": "Aquiles apoya a quienes atraviesan una mala fecha. Su flexibilidad y su actitud de capitán hacen del trabajo en equipo una prioridad.",
+  "history": "Aquiles apoya a quienes atraviesan una mala fecha. Su flexibilidad y su actitud de capitán hacen del trabajo en equipo una prioridad. En el circuito ficticio, su rutina tiene una marca propia: pregunta primero qué necesita el resto. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, redistribuye tareas para aliviar presión. Cuando gana, reconoce la contribución menos visible. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Su forma de liderar consiste en identificar quién necesita apoyo antes de que la ronda lo exponga. Su propio plan mejora cuando el grupo comparte la carga en lugar de dejársela entera.",
+  "habit": "Pregunta primero qué necesita el resto",
+  "loss": "Redistribuye tareas para aliviar presión",
+  "win": "Reconoce la contribución menos visible",
+  "status": "Activo",
+  "behavior": "Aquiles apoya a quienes atraviesan una mala fecha. Su flexibilidad y su actitud de capitán hacen del trabajo en equipo una prioridad.",
+  "relationship": "Prioriza el apoyo y la práctica compartida.",
+  "mentality": "Pregunta primero qué necesita el resto. Redistribuye tareas para aliviar presión.",
+  "positive": [
+    "Todos Juntos",
+    "Apoyo de capitán",
+    "Disciplina de Cadena solidaria"
+  ],
+  "negative": [
+    "Primero los Demás",
+    "Último turno propio",
+    "Presión de Cadena solidaria"
+  ],
+  "exclusive": "Cadena solidaria",
+  "context": "team",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

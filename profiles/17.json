@@ -1,0 +1,26 @@
+{
+  "id": 17,
+  "origin": "lair",
+  "public": "La Bestia del Circuito juega a su ritmo y tiende a aislarse al preparar un cruce de control. Le cuesta explicar decisiones que considera intuitivas.",
+  "history": "La Bestia del Circuito juega a su ritmo y tiende a aislarse al preparar un cruce de control. Le cuesta explicar decisiones que considera intuitivas. En el circuito ficticio, su rutina tiene una marca propia: prefiere repasar cruces en una mesa apartada. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, tarda en pedir una segunda opinión. Cuando gana, comparte el ajuste si se lo preguntan. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Una mesa silenciosa le permite ordenar recursos. Cuando el cuadro exige coordinación, su progreso depende de traducir esa lectura a instrucciones que sus compañeros puedan usar entre rondas.",
+  "habit": "Prefiere repasar cruces en una mesa apartada",
+  "loss": "Tarda en pedir una segunda opinión",
+  "win": "Comparte el ajuste si se lo preguntan",
+  "status": "Activo",
+  "behavior": "La Bestia del Circuito juega a su ritmo y tiende a aislarse al preparar un cruce de control. Le cuesta explicar decisiones que considera intuitivas.",
+  "relationship": "Su aporte al equipo se ve cuando comparte el ajuste si se lo preguntan.",
+  "mentality": "Prefiere repasar cruces en una mesa apartada. Tarda en pedir una segunda opinión.",
+  "positive": [
+    "Aura Fétida",
+    "Control de territorio",
+    "Disciplina de Lectura de la Bestia"
+  ],
+  "negative": [
+    "Lobo Solitario",
+    "Aislamiento de mesa",
+    "Presión de Lectura de la Bestia"
+  ],
+  "exclusive": "Lectura de la Bestia",
+  "context": "local",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

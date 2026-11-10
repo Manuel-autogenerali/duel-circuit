@@ -1,0 +1,26 @@
+{
+  "id": 27,
+  "origin": "obelisk",
+  "public": "El Pollo practica con comodidad ante la pantalla. Su experiencia online es una ventaja y el traslado a una mesa presencial plantea un desafío diferente.",
+  "history": "El Pollo practica con comodidad ante la pantalla. Su experiencia online es una ventaja y el traslado a una mesa presencial plantea un desafío diferente. En el circuito ficticio, su rutina tiene una marca propia: repite partidas cortas en Dark Book. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, consulta el registro del cliente. Cuando gana, comparte un cruce para volver a jugarlo. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. El servidor le da volumen de práctica. Para trasladarlo al local tendrá que preparar el ritmo, la concentración y los hábitos que no aparecen al jugar frente a la pantalla.",
+  "habit": "Repite partidas cortas en Dark Book",
+  "loss": "Consulta el registro del cliente",
+  "win": "Comparte un cruce para volver a jugarlo",
+  "status": "Activo",
+  "behavior": "El Pollo practica con comodidad ante la pantalla. Su experiencia online es una ventaja y el traslado a una mesa presencial plantea un desafío diferente.",
+  "relationship": "Su aporte al equipo se ve cuando comparte un cruce para volver a jugarlo.",
+  "mentality": "Repite partidas cortas en Dark Book. Consulta el registro del cliente.",
+  "positive": [
+    "Guerrero del Teclado",
+    "Cola de práctica",
+    "Disciplina de Conexión del Teclado"
+  ],
+  "negative": [
+    "Fuera de la Pantalla",
+    "Fuera de pantalla",
+    "Presión de Conexión del Teclado"
+  ],
+  "exclusive": "Conexión del Teclado",
+  "context": "book",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

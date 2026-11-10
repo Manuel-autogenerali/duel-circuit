@@ -1,0 +1,26 @@
+{
+  "id": 13,
+  "origin": "dima",
+  "public": "El Campeón del Ayer conserva instinto para partidas largas. Su preferencia por trabajar solo puede complicar la coordinación del plantel.",
+  "history": "El Campeón del Ayer conserva instinto para partidas largas. Su preferencia por trabajar solo puede complicar la coordinación del plantel. En el circuito ficticio, su rutina tiene una marca propia: analiza en silencio antes de compartir conclusiones. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, busca una decisión que pueda corregir por sí mismo. Cuando gana, pasa la página con rapidez. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Sabe encontrar una salida cuando una partida parece cerrada. El reto del plantel es convertir ese instinto individual en una lectura que pueda explicar y compartir antes del próximo 3v3.",
+  "habit": "Analiza en silencio antes de compartir conclusiones",
+  "loss": "Busca una decisión que pueda corregir por sí mismo",
+  "win": "Pasa la página con rapidez",
+  "status": "Activo",
+  "behavior": "El Campeón del Ayer conserva instinto para partidas largas. Su preferencia por trabajar solo puede complicar la coordinación del plantel.",
+  "relationship": "Su aporte al equipo se ve cuando pasa la página con rapidez.",
+  "mentality": "Analiza en silencio antes de compartir conclusiones. Busca una decisión que pueda corregir por sí mismo.",
+  "positive": [
+    "Instinto de Campeón",
+    "Lectura veterana",
+    "Disciplina de Instinto de remontada"
+  ],
+  "negative": [
+    "Lobo Solitario",
+    "Mesa aislada",
+    "Presión de Instinto de remontada"
+  ],
+  "exclusive": "Instinto de remontada",
+  "context": "national",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

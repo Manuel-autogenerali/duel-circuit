@@ -1,0 +1,26 @@
+{
+  "id": 36,
+  "origin": "garden",
+  "public": "Leo Rosendorn pone intensidad en las decisiones de control. Puede contagiar energía al grupo, aunque debe dejar lugar a las ideas de los demás.",
+  "history": "Leo Rosendorn pone intensidad en las decisiones de control. Puede contagiar energía al grupo, aunque debe dejar lugar a las ideas de los demás. En el circuito ficticio, su rutina tiene una marca propia: defiende su lectura con todos los detalles. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, vuelve sobre la ronda más de una vez. Cuando gana, quiere compartir de inmediato su explicación. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Su mejor aporte aparece cuando resume la discusión en una prueba que cualquiera pueda repetir. Si la charla consume toda la sesión, el grupo se queda con argumentos y sin suficientes partidas.",
+  "habit": "Defiende su lectura con todos los detalles",
+  "loss": "Vuelve sobre la ronda más de una vez",
+  "win": "Quiere compartir de inmediato su explicación",
+  "status": "Activo",
+  "behavior": "Leo Rosendorn pone intensidad en las decisiones de control. Puede contagiar energía al grupo, aunque debe dejar lugar a las ideas de los demás.",
+  "relationship": "Su aporte al equipo se ve cuando quiere compartir de inmediato su explicación.",
+  "mentality": "Defiende su lectura con todos los detalles. Vuelve sobre la ronda más de una vez.",
+  "positive": [
+    "Pasión sin Fin",
+    "Energía sostenida",
+    "Disciplina de Impulso Garden"
+  ],
+  "negative": [
+    "Modo Monólogo",
+    "Exceso de explicación",
+    "Presión de Impulso Garden"
+  ],
+  "exclusive": "Impulso Garden",
+  "context": "team",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

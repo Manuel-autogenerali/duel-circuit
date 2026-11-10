@@ -1,0 +1,26 @@
+{
+  "id": 25,
+  "origin": "sekai",
+  "public": "Gaby Kaibaman se distingue por insistir incluso después de equivocarse. Su margen de mejora depende de transformar la repetición en aprendizaje concreto.",
+  "history": "Gaby Kaibaman se distingue por insistir incluso después de equivocarse. Su margen de mejora depende de transformar la repetición en aprendizaje concreto. En el circuito ficticio, su rutina tiene una marca propia: pide una demostración antes de repetir un cruce. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, anota el error que no quiere repetir. Cuando gana, prueba el mismo plan con menos ayuda. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Cada ronda le deja una tarea concreta para la próxima. Gaby quiere llegar al siguiente local pudiendo explicar el error que corrigió y el que todavía necesita practicar.",
+  "habit": "Pide una demostración antes de repetir un cruce",
+  "loss": "Anota el error que no quiere repetir",
+  "win": "Prueba el mismo plan con menos ayuda",
+  "status": "En desarrollo",
+  "behavior": "Gaby Kaibaman se distingue por insistir incluso después de equivocarse. Su margen de mejora depende de transformar la repetición en aprendizaje concreto.",
+  "relationship": "Su aporte al equipo se ve cuando prueba el mismo plan con menos ayuda.",
+  "mentality": "Pide una demostración antes de repetir un cruce. Anota el error que no quiere repetir.",
+  "positive": [
+    "Aprendizaje sin Límites",
+    "Diario de progreso",
+    "Disciplina de Segunda lectura"
+  ],
+  "negative": [
+    "Errores de Principiante",
+    "Error de principiante",
+    "Presión de Segunda lectura"
+  ],
+  "exclusive": "Segunda lectura",
+  "context": "book",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

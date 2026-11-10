@@ -1,0 +1,26 @@
+{
+  "id": 19,
+  "origin": "korium",
+  "public": "Fabio desgasta recursos con Control y presión psicológica. Sus mejores decisiones aparecen en partidas que le permiten leer cuándo el rival se impacienta.",
+  "history": "Fabio desgasta recursos con Control y presión psicológica. Sus mejores decisiones aparecen en partidas que le permiten leer cuándo el rival se impacienta. En el circuito ficticio, su rutina tiene una marca propia: registra cuánto tarda en aparecer una apertura. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, busca dónde cedió iniciativa. Cuando gana, explica qué recurso hizo inclinar la ronda. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Prefiere que el rival tenga que decidir una y otra vez con recursos limitados. Su desafío es sostener esa presión sin quedarse sin margen cuando el reloj de ronda empieza a pesar.",
+  "habit": "Registra cuánto tarda en aparecer una apertura",
+  "loss": "Busca dónde cedió iniciativa",
+  "win": "Explica qué recurso hizo inclinar la ronda",
+  "status": "Activo",
+  "behavior": "Fabio desgasta recursos con Control y presión psicológica. Sus mejores decisiones aparecen en partidas que le permiten leer cuándo el rival se impacienta.",
+  "relationship": "Su aporte al equipo se ve cuando explica qué recurso hizo inclinar la ronda.",
+  "mentality": "Registra cuánto tarda en aparecer una apertura. Busca dónde cedió iniciativa.",
+  "positive": [
+    "Constrictor Mental",
+    "Ventana de control",
+    "Disciplina de Cerco del Estuñador"
+  ],
+  "negative": [
+    "Juego Lento",
+    "Ritmo lento",
+    "Presión de Cerco del Estuñador"
+  ],
+  "exclusive": "Cerco del Estuñador",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 37,
+  "origin": "sekai",
+  "public": "Nico TCG es un duelista fuerte y colaborativo vinculado a Sekai. El Gigante de Sekai se reconoce por su gran estatura, complexión musculosa y anteojos.",
+  "history": "Nico TCG es un duelista fuerte y colaborativo vinculado a Sekai. El Gigante de Sekai se reconoce por su gran estatura, complexión musculosa y anteojos. En el circuito ficticio, su rutina tiene una marca propia: facilita una mesa de prueba a sus compañeros. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, pregunta cómo ayudar con el siguiente cruce. Cuando gana, comparte la preparación con la sala. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. En Sekai le importa que la práctica circule y que nadie llegue solo a una fecha difícil. Tiene que reservar también tiempo para el cruce propio, especialmente cuando el resto cuenta con él.",
+  "habit": "Facilita una mesa de prueba a sus compañeros",
+  "loss": "Pregunta cómo ayudar con el siguiente cruce",
+  "win": "Comparte la preparación con la sala",
+  "status": "Activo",
+  "behavior": "Nico TCG es un duelista fuerte y colaborativo vinculado a Sekai. El Gigante de Sekai se reconoce por su gran estatura, complexión musculosa y anteojos.",
+  "relationship": "Prioriza el apoyo y la práctica compartida.",
+  "mentality": "Facilita una mesa de prueba a sus compañeros. Pregunta cómo ayudar con el siguiente cruce.",
+  "positive": [
+    "El Vendedor de Sekai",
+    "Apoyo Sekai",
+    "Disciplina de Puente del Gigante"
+  ],
+  "negative": [
+    "Demasiado Buen Compañero",
+    "Tiempo repartido",
+    "Presión de Puente del Gigante"
+  ],
+  "exclusive": "Puente del Gigante",
+  "context": "local",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

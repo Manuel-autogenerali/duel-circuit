@@ -1,0 +1,26 @@
+{
+  "id": 26,
+  "origin": "garden",
+  "public": "Joako construye su juego alrededor de una pieza favorita. Su disciplina le da control sobre esa línea, aunque cambiar de plan le cuesta tiempo.",
+  "history": "Joako construye su juego alrededor de una pieza favorita. Su disciplina le da control sobre esa línea, aunque cambiar de plan le cuesta tiempo. En el circuito ficticio, su rutina tiene una marca propia: mantiene la carta central al probar variantes. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, intenta reparar la línea antes de descartarla. Cuando gana, señala dónde entró su carta decisiva. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Su apuesta es sostener la identidad de la lista mientras aprende un segundo camino hacia la victoria. El equipo puede ayudarlo si le propone variantes que no le quiten su pieza central de inmediato.",
+  "habit": "Mantiene la carta central al probar variantes",
+  "loss": "Intenta reparar la línea antes de descartarla",
+  "win": "Señala dónde entró su carta decisiva",
+  "status": "En desarrollo",
+  "behavior": "Joako construye su juego alrededor de una pieza favorita. Su disciplina le da control sobre esa línea, aunque cambiar de plan le cuesta tiempo.",
+  "relationship": "Su aporte al equipo se ve cuando señala dónde entró su carta decisiva.",
+  "mentality": "Mantiene la carta central al probar variantes. Intenta reparar la línea antes de descartarla.",
+  "positive": [
+    "Mi Mazo, Mis Reglas",
+    "Firma reconocible",
+    "Disciplina de Última copia"
+  ],
+  "negative": [
+    "No Me Cambies Nada",
+    "Ancla de una carta",
+    "Presión de Última copia"
+  ],
+  "exclusive": "Última copia",
+  "context": "local",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

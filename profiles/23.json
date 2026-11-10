@@ -1,0 +1,26 @@
+{
+  "id": 23,
+  "origin": "obelisk",
+  "public": "Tomás Dark Duguera transmite poco con palabras y mucho con decisiones. Su control de nivel internacional se apoya en sostener la presión ronda tras ronda.",
+  "history": "Tomás Dark Duguera transmite poco con palabras y mucho con decisiones. Su control de nivel internacional se apoya en sostener la presión ronda tras ronda. En el circuito ficticio, su rutina tiene una marca propia: prepara respuestas sin anunciar el plan. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, revisa en privado antes de pedir ayuda. Cuando gana, se concentra en el siguiente cruce. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Su mejor preparación termina en una lista breve de respuestas que puede ejecutar sin explicar el plan entero. Si debe competir en equipo, necesita compartir al menos las señales que importan.",
+  "habit": "Prepara respuestas sin anunciar el plan",
+  "loss": "Revisa en privado antes de pedir ayuda",
+  "win": "Se concentra en el siguiente cruce",
+  "status": "Activo",
+  "behavior": "Tomás Dark Duguera transmite poco con palabras y mucho con decisiones. Su control de nivel internacional se apoya en sostener la presión ronda tras ronda.",
+  "relationship": "Su aporte al equipo se ve cuando se concentra en el siguiente cruce.",
+  "mentality": "Prepara respuestas sin anunciar el plan. Revisa en privado antes de pedir ayuda.",
+  "positive": [
+    "Presión Silenciosa",
+    "Secuencia silenciosa",
+    "Disciplina de Presión de cierre"
+  ],
+  "negative": [
+    "Pocas Palabras",
+    "Comunicación escasa",
+    "Presión de Presión de cierre"
+  ],
+  "exclusive": "Presión de cierre",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 12,
+  "origin": "dima",
+  "public": "Acevedo vuelve a medir su control del tablero tras un periodo de menor actividad. Conserva recursos técnicos, pero el ritmo oficial le exige rodaje.",
+  "history": "Acevedo vuelve a medir su control del tablero tras un periodo de menor actividad. Conserva recursos técnicos, pero el ritmo oficial le exige rodaje. En el circuito ficticio, su rutina tiene una marca propia: recupera secuencias de sus listas anteriores. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, pide una práctica corta para afinar tiempos. Cuando gana, evita dar por recuperada toda su forma. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Cada fecha sirve para recuperar ritmo sin pretender volver de golpe al nivel que espera de sí mismo. La práctica que más valora es la que reproduce los tiempos de una ronda real.",
+  "habit": "Recupera secuencias de sus listas anteriores",
+  "loss": "Pide una práctica corta para afinar tiempos",
+  "win": "Evita dar por recuperada toda su forma",
+  "status": "En retorno",
+  "behavior": "Acevedo vuelve a medir su control del tablero tras un periodo de menor actividad. Conserva recursos técnicos, pero el ritmo oficial le exige rodaje.",
+  "relationship": "Su aporte al equipo se ve cuando evita dar por recuperada toda su forma.",
+  "mentality": "Recupera secuencias de sus listas anteriores. Pide una práctica corta para afinar tiempos.",
+  "positive": [
+    "Viejo Rey",
+    "Memoria de mesa",
+    "Disciplina de Regreso del Viejo Rey"
+  ],
+  "negative": [
+    "Óxido Competitivo",
+    "Ritmo oxidado",
+    "Presión de Regreso del Viejo Rey"
+  ],
+  "exclusive": "Regreso del Viejo Rey",
+  "context": "local",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

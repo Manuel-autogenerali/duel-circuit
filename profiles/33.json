@@ -1,0 +1,26 @@
+{
+  "id": 33,
+  "origin": "korium",
+  "public": "El Primer Guerrero de Korium busca llegar al Top con secuencias de Combo. Los planes de bloqueo y la dispersión del formato le complican la preparación.",
+  "history": "El Primer Guerrero de Korium busca llegar al Top con secuencias de Combo. Los planes de bloqueo y la dispersión del formato le complican la preparación. En el circuito ficticio, su rutina tiene una marca propia: afina respuestas contra listas concretas. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, se concentra en la primera oportunidad que perdió. Cuando gana, vuelve al plan que le abrió el cuadro. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. En Korium quiere medir si su secuencia habitual sigue entrando cuando se amplía el formato. Un bloque de testeo contra control le ayuda a reconocer cuándo insistir y cuándo cambiar de ruta.",
+  "habit": "Afina respuestas contra listas concretas",
+  "loss": "Se concentra en la primera oportunidad que perdió",
+  "win": "Vuelve al plan que le abrió el cuadro",
+  "status": "Activo",
+  "behavior": "El Primer Guerrero de Korium busca llegar al Top con secuencias de Combo. Los planes de bloqueo y la dispersión del formato le complican la preparación.",
+  "relationship": "Su aporte al equipo se ve cuando vuelve al plan que le abrió el cuadro.",
+  "mentality": "Afina respuestas contra listas concretas. Se concentra en la primera oportunidad que perdió.",
+  "positive": [
+    "Habitual del Top",
+    "Ruta al Top",
+    "Disciplina de Apertura Korium"
+  ],
+  "negative": [
+    "Odio al Stun",
+    "Bloqueo de ritmo",
+    "Presión de Apertura Korium"
+  ],
+  "exclusive": "Apertura Korium",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

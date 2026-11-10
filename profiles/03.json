@@ -1,0 +1,26 @@
+{
+  "id": 3,
+  "origin": "haru",
+  "public": "Su carisma mueve al grupo y su papel dentro de la alineación le importa. El apodo convive con su imagen de pelo blanco, estética dark y tatuajes.",
+  "history": "Su carisma mueve al grupo y su papel dentro de la alineación le importa. El apodo convive con su imagen de pelo blanco, estética dark y tatuajes. En el circuito ficticio, su rutina tiene una marca propia: reúne a sus compañeros antes de sentarse. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, necesita saber con qué rol cuenta. Cuando gana, hace circular el mérito entre sus compañeros. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. El dilema aparece cuando la alineación cambia: su voz puede unir al plantel, pero primero necesita entender por qué le toca mirar desde el banco y qué espera el equipo de él.",
+  "habit": "Reúne a sus compañeros antes de sentarse",
+  "loss": "Necesita saber con qué rol cuenta",
+  "win": "Hace circular el mérito entre sus compañeros",
+  "status": "Activo",
+  "behavior": "Su carisma mueve al grupo y su papel dentro de la alineación le importa. El apodo convive con su imagen de pelo blanco, estética dark y tatuajes.",
+  "relationship": "Su aporte al equipo se ve cuando hace circular el mérito entre sus compañeros.",
+  "mentality": "Reúne a sus compañeros antes de sentarse. Necesita saber con qué rol cuenta.",
+  "positive": [
+    "Julito House",
+    "Mesa convocada",
+    "Disciplina de Julito House en equipo"
+  ],
+  "negative": [
+    "No Nací para el Banco",
+    "Banco incómodo",
+    "Presión de Julito House en equipo"
+  ],
+  "exclusive": "Julito House en equipo",
+  "context": "team",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

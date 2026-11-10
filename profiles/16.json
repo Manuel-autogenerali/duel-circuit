@@ -1,0 +1,26 @@
+{
+  "id": 16,
+  "origin": "dima",
+  "public": "El Rey Raro ensaya estrategias fuera del consenso. Algunos experimentos encuentran respuestas nuevas y otros dejan su mazo sin un plan de respaldo.",
+  "history": "El Rey Raro ensaya estrategias fuera del consenso. Algunos experimentos encuentran respuestas nuevas y otros dejan su mazo sin un plan de respaldo. En el circuito ficticio, su rutina tiene una marca propia: reserva un espacio para una carta inesperada. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, separa el fallo de la idea que lo provocó. Cuando gana, documenta el experimento antes de repetirlo. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Para el próximo local quiere medir si su carta inesperada sirve contra más de un rival. Si solo funciona en una partida, el experimento vuelve al banco de pruebas.",
+  "habit": "Reserva un espacio para una carta inesperada",
+  "loss": "Separa el fallo de la idea que lo provocó",
+  "win": "Documenta el experimento antes de repetirlo",
+  "status": "Activo",
+  "behavior": "El Rey Raro ensaya estrategias fuera del consenso. Algunos experimentos encuentran respuestas nuevas y otros dejan su mazo sin un plan de respaldo.",
+  "relationship": "Su aporte al equipo se ve cuando documenta el experimento antes de repetirlo.",
+  "mentality": "Reserva un espacio para una carta inesperada. Separa el fallo de la idea que lo provocó.",
+  "positive": [
+    "El Rey Raro",
+    "Banco de rarezas",
+    "Disciplina de Coronación alternativa"
+  ],
+  "negative": [
+    "Experimentos Fallidos",
+    "Prueba sin respaldo",
+    "Presión de Coronación alternativa"
+  ],
+  "exclusive": "Coronación alternativa",
+  "context": "book",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

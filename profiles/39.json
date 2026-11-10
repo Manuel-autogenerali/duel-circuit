@@ -1,0 +1,26 @@
+{
+  "id": 39,
+  "origin": "lair",
+  "public": "Valeria Noctis estudia los patrones rivales antes de comprometerse con una estrategia. Su Push aprovecha la información acumulada y exige margen cuando falta.",
+  "history": "Valeria Noctis estudia los patrones rivales antes de comprometerse con una estrategia. Su Push aprovecha la información acumulada y exige margen cuando falta. En el circuito ficticio, su rutina tiene una marca propia: anota señales antes de exponer su plan. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, identifica qué dato faltó en la preparación. Cuando gana, comprueba qué señal delató al rival. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Antes de comprometer el plan, busca saber si las señales del rival forman un patrón. Si los datos faltan, una sesión corta de testeo le permite decidir cuánto arriesgar en su primer cruce.",
+  "habit": "Anota señales antes de exponer su plan",
+  "loss": "Identifica qué dato faltó en la preparación",
+  "win": "Comprueba qué señal delató al rival",
+  "status": "Activo",
+  "behavior": "Valeria Noctis estudia los patrones rivales antes de comprometerse con una estrategia. Su Push aprovecha la información acumulada y exige margen cuando falta.",
+  "relationship": "Su aporte al equipo se ve cuando comprueba qué señal delató al rival.",
+  "mentality": "Anota señales antes de exponer su plan. Identifica qué dato faltó en la preparación.",
+  "positive": [
+    "Los Secretos del Rival",
+    "Lectura de sombras",
+    "Disciplina de Ventana Noctis"
+  ],
+  "negative": [
+    "Información Insuficiente",
+    "Pista incompleta",
+    "Presión de Ventana Noctis"
+  ],
+  "exclusive": "Ventana Noctis",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

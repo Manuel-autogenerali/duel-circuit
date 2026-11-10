@@ -1,0 +1,26 @@
+{
+  "id": 4,
+  "origin": "haru",
+  "public": "El Samurái del Meta alterna fases de gran precisión y semanas en las que pierde el pulso. Su estética samurái acompaña un juego de combo.",
+  "history": "El Samurái del Meta alterna fases de gran precisión y semanas en las que pierde el pulso. Su estética samurái acompaña un juego de combo. En el circuito ficticio, su rutina tiene una marca propia: ensaya el mismo inicio hasta encontrar ritmo. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, vuelve a una línea conocida. Cuando gana, prefiere encadenar la siguiente ronda. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. La regularidad es su desafío. Si la racha cambia de signo, le sirve volver al primer movimiento practicado y recuperar confianza sin exigir que toda la fecha se resuelva en una sola ronda.",
+  "habit": "Ensaya el mismo inicio hasta encontrar ritmo",
+  "loss": "Vuelve a una línea conocida",
+  "win": "Prefiere encadenar la siguiente ronda",
+  "status": "Activo",
+  "behavior": "El Samurái del Meta alterna fases de gran precisión y semanas en las que pierde el pulso. Su estética samurái acompaña un juego de combo.",
+  "relationship": "Su aporte al equipo se ve cuando prefiere encadenar la siguiente ronda.",
+  "mentality": "Ensaya el mismo inicio hasta encontrar ritmo. Vuelve a una línea conocida.",
+  "positive": [
+    "Racha del Samurái",
+    "Pulso de acero",
+    "Disciplina de Corte de racha"
+  ],
+  "negative": [
+    "Bajón del Samurái",
+    "Ritmo quebrado",
+    "Presión de Corte de racha"
+  ],
+  "exclusive": "Corte de racha",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

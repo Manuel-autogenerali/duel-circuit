@@ -1,0 +1,26 @@
+{
+  "id": 28,
+  "origin": "sekai",
+  "public": "Juani el Gigante construye respuestas desde el side deck. Puede empezar despacio, pero mejora su lectura cuando descubre qué piezas necesita cambiar.",
+  "history": "Juani el Gigante construye respuestas desde el side deck. Puede empezar despacio, pero mejora su lectura cuando descubre qué piezas necesita cambiar. En el circuito ficticio, su rutina tiene una marca propia: clasifica respuestas por cruce. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, usa la derrota como diagnóstico. Cuando gana, revisa qué ajuste habría funcionado antes. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Cuando por fin identifica una carta de respuesta, suele recordar el cruce con mucha claridad. Su desafío es anticipar esa lectura y evitar que la primera derrota sea su única fuente de información.",
+  "habit": "Clasifica respuestas por cruce",
+  "loss": "Usa la derrota como diagnóstico",
+  "win": "Revisa qué ajuste habría funcionado antes",
+  "status": "Activo",
+  "behavior": "Juani el Gigante construye respuestas desde el side deck. Puede empezar despacio, pero mejora su lectura cuando descubre qué piezas necesita cambiar.",
+  "relationship": "Su aporte al equipo se ve cuando revisa qué ajuste habría funcionado antes.",
+  "mentality": "Clasifica respuestas por cruce. Usa la derrota como diagnóstico.",
+  "positive": [
+    "Plan B",
+    "Side planificado",
+    "Disciplina de Plan B de Juani"
+  ],
+  "negative": [
+    "Siempre Arranco Perdiendo",
+    "Arranque lento",
+    "Presión de Plan B de Juani"
+  ],
+  "exclusive": "Plan B de Juani",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

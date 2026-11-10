@@ -1,0 +1,26 @@
+{
+  "id": 7,
+  "origin": "haru",
+  "public": "El referente de Dark Book prefiere la práctica online y llega a ella con un nivel competitivo alto. Su familiaridad con los locales presenciales es menor.",
+  "history": "El referente de Dark Book prefiere la práctica online y llega a ella con un nivel competitivo alto. Su familiaridad con los locales presenciales es menor. En el circuito ficticio, su rutina tiene una marca propia: encadena repeticiones del mismo cruce online. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, revisa el registro de partidas. Cuando gana, comparte el dato que cambió la serie. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Los cruces que dominó en línea no siempre llegan con el mismo ritmo a la mesa física. Su desafío es decidir cuándo cerrar el cliente y llevar una lectura del servidor al local.",
+  "habit": "Encadena repeticiones del mismo cruce online",
+  "loss": "Revisa el registro de partidas",
+  "win": "Comparte el dato que cambió la serie",
+  "status": "Activo",
+  "behavior": "El referente de Dark Book prefiere la práctica online y llega a ella con un nivel competitivo alto. Su familiaridad con los locales presenciales es menor.",
+  "relationship": "Su aporte al equipo se ve cuando comparte el dato que cambió la serie.",
+  "mentality": "Encadena repeticiones del mismo cruce online. Revisa el registro de partidas.",
+  "positive": [
+    "Adicto al Dark Book",
+    "Turno digital",
+    "Disciplina de Servicio de madrugada"
+  ],
+  "negative": [
+    "Enemigo de los Locales",
+    "Fuera del servidor",
+    "Presión de Servicio de madrugada"
+  ],
+  "exclusive": "Servicio de madrugada",
+  "context": "book",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

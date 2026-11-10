@@ -1,0 +1,26 @@
+{
+  "id": 22,
+  "origin": "obelisk",
+  "public": "El Periodista cruza notas del circuito con decisiones de mazo. Buscar una primicia puede darle perspectiva, aunque a veces divide su atención.",
+  "history": "El Periodista cruza notas del circuito con decisiones de mazo. Buscar una primicia puede darle perspectiva, aunque a veces divide su atención. En el circuito ficticio, su rutina tiene una marca propia: registra tendencias entre rondas. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, contrasta su lectura con otros duelistas. Cuando gana, anota el ajuste que merece una segunda prueba. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. La próxima primicia podría ser una tendencia de mazos que todavía nadie nombró. Tiene que decidir cuánto tiempo dedicar a comprobarla y cuánto reservar para preparar su propia inscripción.",
+  "habit": "Registra tendencias entre rondas",
+  "loss": "Contrasta su lectura con otros duelistas",
+  "win": "Anota el ajuste que merece una segunda prueba",
+  "status": "Activo",
+  "behavior": "El Periodista cruza notas del circuito con decisiones de mazo. Buscar una primicia puede darle perspectiva, aunque a veces divide su atención.",
+  "relationship": "Su aporte al equipo se ve cuando anota el ajuste que merece una segunda prueba.",
+  "mentality": "Registra tendencias entre rondas. Contrasta su lectura con otros duelistas.",
+  "positive": [
+    "Primicia Exclusiva",
+    "Registro de tendencias",
+    "Disciplina de Titular de prueba"
+  ],
+  "negative": [
+    "Siempre Hay una Noticia",
+    "Distracción editorial",
+    "Presión de Titular de prueba"
+  ],
+  "exclusive": "Titular de prueba",
+  "context": "book",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

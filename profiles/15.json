@@ -1,0 +1,26 @@
+{
+  "id": 15,
+  "origin": "dima",
+  "public": "El Grito del Circuito acelera el juego con líneas de Aggro. Su intensidad anima algunas mesas y exige ordenar la comunicación en otras.",
+  "history": "El Grito del Circuito acelera el juego con líneas de Aggro. Su intensidad anima algunas mesas y exige ordenar la comunicación en otras. En el circuito ficticio, su rutina tiene una marca propia: marca el tempo con aperturas directas. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, se distrae si prolonga la discusión. Cuando gana, quiere volver a competir de inmediato. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Cuando la sala se vuelve ruidosa, puede usar la energía para presionar al rival o dejar que la discusión le robe tiempo. Una consigna breve le ayuda a volver al cruce.",
+  "habit": "Marca el tempo con aperturas directas",
+  "loss": "Se distrae si prolonga la discusión",
+  "win": "Quiere volver a competir de inmediato",
+  "status": "Activo",
+  "behavior": "El Grito del Circuito acelera el juego con líneas de Aggro. Su intensidad anima algunas mesas y exige ordenar la comunicación en otras.",
+  "relationship": "Su aporte al equipo se ve cuando quiere volver a competir de inmediato.",
+  "mentality": "Marca el tempo con aperturas directas. Se distrae si prolonga la discusión.",
+  "positive": [
+    "Frecuencia Insoportable",
+    "Frecuencia ofensiva",
+    "Disciplina de Cambio de volumen"
+  ],
+  "negative": [
+    "Silencio, por Favor",
+    "Ruido de fondo",
+    "Presión de Cambio de volumen"
+  ],
+  "exclusive": "Cambio de volumen",
+  "context": "local",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

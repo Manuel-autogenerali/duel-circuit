@@ -1,0 +1,26 @@
+{
+  "id": 9,
+  "origin": "mujica",
+  "public": "El menor de los Mujica lidera la coordinación del trío. Su impulso de combo cobra fuerza cuando puede repartir el trabajo con sus hermanos.",
+  "history": "El menor de los Mujica lidera la coordinación del trío. Su impulso de combo cobra fuerza cuando puede repartir el trabajo con sus hermanos. En el circuito ficticio, su rutina tiene una marca propia: reparte cruces antes del 3v3. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, revisa la distribución de responsabilidades. Cuando gana, reconoce al hermano que sostuvo la serie. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. El trabajo de Thiago comienza antes de sentarse: quiere que sus hermanos sepan qué ritmo necesita cada cruce. Separarlos lo obliga a improvisar sin su referencia táctica más confiable.",
+  "habit": "Reparte cruces antes del 3v3",
+  "loss": "Revisa la distribución de responsabilidades",
+  "win": "Reconoce al hermano que sostuvo la serie",
+  "status": "Activo",
+  "behavior": "El menor de los Mujica lidera la coordinación del trío. Su impulso de combo cobra fuerza cuando puede repartir el trabajo con sus hermanos.",
+  "relationship": "Coordina el 3v3 con sus hermanos.",
+  "mentality": "Reparte cruces antes del 3v3. Revisa la distribución de responsabilidades.",
+  "positive": [
+    "El Hermano Menor Manda",
+    "Orden de mesa",
+    "Disciplina de Señal del menor"
+  ],
+  "negative": [
+    "Dependencia Familiar",
+    "Plan sin hermanos",
+    "Presión de Señal del menor"
+  ],
+  "exclusive": "Señal del menor",
+  "context": "team",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

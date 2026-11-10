@@ -1,0 +1,26 @@
+{
+  "id": 20,
+  "origin": "mujica",
+  "public": "Franquito, El Pilar, está retirado del circuito activo en la narrativa y aporta su experiencia al testeo y al análisis. La beta permite inscribirlo como decisión del mánager.",
+  "history": "Franquito, El Pilar, está retirado del circuito activo en la narrativa y aporta su experiencia al testeo y al análisis. La beta permite inscribirlo como decisión del mánager. En el circuito ficticio, su rutina tiene una marca propia: prepara ejercicios para que sus compañeros repitan un cruce. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, se vuelve directo al señalar errores. Cuando gana, atribuye el resultado al trabajo de práctica. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. En vez de perseguir un trofeo, quiere que el equipo pueda repetir un cruce difícil sin depender de sus indicaciones. Su legado se mide en cuántas soluciones quedan listas para la siguiente fecha.",
+  "habit": "Prepara ejercicios para que sus compañeros repitan un cruce",
+  "loss": "Se vuelve directo al señalar errores",
+  "win": "Atribuye el resultado al trabajo de práctica",
+  "status": "Retirado (narrativa)",
+  "behavior": "Franquito, El Pilar, está retirado del circuito activo en la narrativa y aporta su experiencia al testeo y al análisis. La beta permite inscribirlo como decisión del mánager.",
+  "relationship": "Su aporte al equipo se ve cuando atribuye el resultado al trabajo de práctica.",
+  "mentality": "Prepara ejercicios para que sus compañeros repitan un cruce. Se vuelve directo al señalar errores.",
+  "positive": [
+    "Pilar del Testeo",
+    "Mesa de análisis",
+    "Disciplina de Pilar del laboratorio"
+  ],
+  "negative": [
+    "Carácter Agresivo",
+    "Franqueza abrasiva",
+    "Presión de Pilar del laboratorio"
+  ],
+  "exclusive": "Pilar del laboratorio",
+  "context": "book",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

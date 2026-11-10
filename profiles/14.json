@@ -1,0 +1,26 @@
+{
+  "id": 14,
+  "origin": "lair",
+  "public": "El Jujeño Campeón reserva su mejor energía para grandes citas. Prefiere elegir el calendario en lugar de jugar todas las fechas disponibles.",
+  "history": "El Jujeño Campeón reserva su mejor energía para grandes citas. Prefiere elegir el calendario en lugar de jugar todas las fechas disponibles. En el circuito ficticio, su rutina tiene una marca propia: organiza su preparación alrededor del Nacional. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, ajusta el plan para la siguiente cita. Cuando gana, dedica tiempo a revisar cómo sostuvo la presión. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. En el calendario marca las citas que justifican concentrar su preparación. Su equipo tiene que equilibrar esa selección con la necesidad de darle práctica antes de un cuadro exigente.",
+  "habit": "Organiza su preparación alrededor del Nacional",
+  "loss": "Ajusta el plan para la siguiente cita",
+  "win": "Dedica tiempo a revisar cómo sostuvo la presión",
+  "status": "Activo",
+  "behavior": "El Jujeño Campeón reserva su mejor energía para grandes citas. Prefiere elegir el calendario en lugar de jugar todas las fechas disponibles.",
+  "relationship": "Su aporte al equipo se ve cuando dedica tiempo a revisar cómo sostuvo la presión.",
+  "mentality": "Organiza su preparación alrededor del Nacional. Ajusta el plan para la siguiente cita.",
+  "positive": [
+    "El Jujeño Campeón",
+    "Foco de campeonato",
+    "Disciplina de Reserva para el Nacional"
+  ],
+  "negative": [
+    "Apariciones Selectivas",
+    "Calendario selectivo",
+    "Presión de Reserva para el Nacional"
+  ],
+  "exclusive": "Reserva para el Nacional",
+  "context": "national",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

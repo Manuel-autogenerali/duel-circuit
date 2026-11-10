@@ -1,0 +1,26 @@
+{
+  "id": 18,
+  "origin": "garden",
+  "public": "Alan sostiene al grupo aunque su nivel competitivo inicial sea bajo. Las urgencias pueden desplazar su agenda, pero cuando está aporta trabajo de equipo.",
+  "history": "Alan sostiene al grupo aunque su nivel competitivo inicial sea bajo. Las urgencias pueden desplazar su agenda, pero cuando está aporta trabajo de equipo. En el circuito ficticio, su rutina tiene una marca propia: ayuda a preparar las mesas de práctica. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, pregunta qué puede mejorar para la próxima. Cuando gana, destaca a quien le enseñó el cruce. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Si una urgencia cambia su agenda, procura dejarle al plantel lo que ya preparó. Si puede jugar, su objetivo es sostener una parte concreta del plan colectivo y aprender de la experiencia.",
+  "habit": "Ayuda a preparar las mesas de práctica",
+  "loss": "Pregunta qué puede mejorar para la próxima",
+  "win": "Destaca a quien le enseñó el cruce",
+  "status": "En desarrollo",
+  "behavior": "Alan sostiene al grupo aunque su nivel competitivo inicial sea bajo. Las urgencias pueden desplazar su agenda, pero cuando está aporta trabajo de equipo.",
+  "relationship": "Prioriza el apoyo y la práctica compartida.",
+  "mentality": "Ayuda a preparar las mesas de práctica. Pregunta qué puede mejorar para la próxima.",
+  "positive": [
+    "Compañero Ejemplar",
+    "Apoyo de mesa",
+    "Disciplina de Relevo del Héroe"
+  ],
+  "negative": [
+    "¡Hay una emergencia!",
+    "Turno de emergencia",
+    "Presión de Relevo del Héroe"
+  ],
+  "exclusive": "Relevo del Héroe",
+  "context": "team",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

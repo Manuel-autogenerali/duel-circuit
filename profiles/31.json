@@ -1,0 +1,26 @@
+{
+  "id": 31,
+  "origin": "obelisk",
+  "public": "Cavero prepara respuestas contra el meta conocido. Cuando una lista no estaba entre sus previsiones, necesita tiempo para reconstruir el cruce.",
+  "history": "Cavero prepara respuestas contra el meta conocido. Cuando una lista no estaba entre sus previsiones, necesita tiempo para reconstruir el cruce. En el circuito ficticio, su rutina tiene una marca propia: ordena amenazas por frecuencia. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, añade al registro el mazo que no esperaba. Cuando gana, comprueba si el rival podía esquivar su respuesta. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Una lista inesperada le obliga a salir de la preparación prevista. Cuando consiga distinguir un señuelo de una amenaza real, tendrá otra respuesta que sumar al mapa de la próxima fecha.",
+  "habit": "Ordena amenazas por frecuencia",
+  "loss": "Añade al registro el mazo que no esperaba",
+  "win": "Comprueba si el rival podía esquivar su respuesta",
+  "status": "Activo",
+  "behavior": "Cavero prepara respuestas contra el meta conocido. Cuando una lista no estaba entre sus previsiones, necesita tiempo para reconstruir el cruce.",
+  "relationship": "Su aporte al equipo se ve cuando comprueba si el rival podía esquivar su respuesta.",
+  "mentality": "Ordena amenazas por frecuencia. Añade al registro el mazo que no esperaba.",
+  "positive": [
+    "Antimeta",
+    "Mapa de amenazas",
+    "Disciplina de Cierre Antimeta"
+  ],
+  "negative": [
+    "No Estaba en la Lista",
+    "Fuera de lista",
+    "Presión de Cierre Antimeta"
+  ],
+  "exclusive": "Cierre Antimeta",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

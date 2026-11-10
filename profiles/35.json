@@ -1,0 +1,26 @@
+{
+  "id": 35,
+  "origin": "garden",
+  "public": "Christopher Morán defiende las alternativas de Garden Team. Su humor y su afición por listas poco frecuentes le dan una presencia reconocible en la sala.",
+  "history": "Christopher Morán defiende las alternativas de Garden Team. Su humor y su afición por listas poco frecuentes le dan una presencia reconocible en la sala. En el circuito ficticio, su rutina tiene una marca propia: prueba una lista que provoque preguntas. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, convierte la anécdota en un ajuste. Cuando gana, pide a un compañero que repita el experimento. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Le divierte que el rival pregunte de dónde salió la lista. El siguiente paso es que Garden pueda repetir el buen resultado sin depender de que la sorpresa funcione por segunda vez.",
+  "habit": "Prueba una lista que provoque preguntas",
+  "loss": "Convierte la anécdota en un ajuste",
+  "win": "Pide a un compañero que repita el experimento",
+  "status": "Activo",
+  "behavior": "Christopher Morán defiende las alternativas de Garden Team. Su humor y su afición por listas poco frecuentes le dan una presencia reconocible en la sala.",
+  "relationship": "Su aporte al equipo se ve cuando pide a un compañero que repita el experimento.",
+  "mentality": "Prueba una lista que provoque preguntas. Convierte la anécdota en un ajuste.",
+  "positive": [
+    "Nunca el Mejor Mazo",
+    "Alternativa Garden",
+    "Disciplina de La función del Payaso"
+  ],
+  "negative": [
+    "Top 14 Legendario",
+    "Ajuste disperso",
+    "Presión de La función del Payaso"
+  ],
+  "exclusive": "La función del Payaso",
+  "context": "local",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

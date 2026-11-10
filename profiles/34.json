@@ -1,0 +1,26 @@
+{
+  "id": 34,
+  "origin": "korium",
+  "public": "Mauro dirige Korium y aporta criterio financiero. La administración es parte de su identidad y no garantiza el mismo impacto al sentarse a competir.",
+  "history": "Mauro dirige Korium y aporta criterio financiero. La administración es parte de su identidad y no garantiza el mismo impacto al sentarse a competir. En el circuito ficticio, su rutina tiene una marca propia: revisa presupuesto y asistencia antes de una fecha. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, busca qué inversión evitó un problema. Cuando gana, separa el logro deportivo del gasto de preparación. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Su prioridad es que Korium pueda llegar preparado sin agotar el presupuesto. Cada inscripción obliga a decidir si él aporta más en la mesa o cuidando el trabajo de quienes van a jugar.",
+  "habit": "Revisa presupuesto y asistencia antes de una fecha",
+  "loss": "Busca qué inversión evitó un problema",
+  "win": "Separa el logro deportivo del gasto de preparación",
+  "status": "Activo",
+  "behavior": "Mauro dirige Korium y aporta criterio financiero. La administración es parte de su identidad y no garantiza el mismo impacto al sentarse a competir.",
+  "relationship": "Su aporte al equipo se ve cuando separa el logro deportivo del gasto de preparación.",
+  "mentality": "Revisa presupuesto y asistencia antes de una fecha. Busca qué inversión evitó un problema.",
+  "positive": [
+    "La Billetera de Korium",
+    "Caja operativa",
+    "Disciplina de Balance de Korium"
+  ],
+  "negative": [
+    "No Soy el Duelista",
+    "Atención dividida",
+    "Presión de Balance de Korium"
+  ],
+  "exclusive": "Balance de Korium",
+  "context": "team",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

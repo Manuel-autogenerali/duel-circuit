@@ -1,0 +1,26 @@
+{
+  "id": 1,
+  "origin": "korium",
+  "public": "La joven promesa prepara combinaciones que otros tardan varias fechas en entender. Su agenda escolar le obliga a escoger bien qué fechas disputa.",
+  "history": "La joven promesa prepara combinaciones que otros tardan varias fechas en entender. Su agenda escolar le obliga a escoger bien qué fechas disputa. En el circuito ficticio, su rutina tiene una marca propia: anota cada línea de juego al terminar la ronda. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, se toma un momento para volver sobre el primer error. Cuando gana, comparte la secuencia que le funcionó. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. En su próxima fecha importante quiere llegar con dos rutas de combo preparadas y tiempo suficiente para concentrarse. Para el mánager, la apuesta es cuidar su agenda sin cortarle el impulso competitivo.",
+  "habit": "Anota cada línea de juego al terminar la ronda",
+  "loss": "Se toma un momento para volver sobre el primer error",
+  "win": "Comparte la secuencia que le funcionó",
+  "status": "Activo",
+  "behavior": "La joven promesa prepara combinaciones que otros tardan varias fechas en entender. Su agenda escolar le obliga a escoger bien qué fechas disputa.",
+  "relationship": "Su aporte al equipo se ve cuando comparte la secuencia que le funcionó.",
+  "mentality": "Anota cada línea de juego al terminar la ronda. Se toma un momento para volver sobre el primer error.",
+  "positive": [
+    "Niño prodigio",
+    "Cuaderno de líneas",
+    "Disciplina de Combo de recreo"
+  ],
+  "negative": [
+    "Escolaridad",
+    "Último timbre",
+    "Presión de Combo de recreo"
+  ],
+  "exclusive": "Combo de recreo",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

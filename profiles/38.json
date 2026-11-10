@@ -1,0 +1,26 @@
+{
+  "id": 38,
+  "origin": "sekai",
+  "public": "Facundo Pacini domina los rulings y recibe consultas frecuentes. Su perfil rubio, muy delgado y de ojos marrones se distingue del resto del plantel.",
+  "history": "Facundo Pacini domina los rulings y recibe consultas frecuentes. Su perfil rubio, muy delgado y de ojos marrones se distingue del resto del plantel. En el circuito ficticio, su rutina tiene una marca propia: comprueba el orden de resolución de una jugada. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, distingue el error técnico del estratégico. Cuando gana, explica la interacción que decidió la partida. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Cuando un cruce se frena por una interacción complicada, Facundo busca una explicación que sirva en la siguiente ronda. Su reto es atender consultas sin dispersar la preparación de su propia mesa.",
+  "habit": "Comprueba el orden de resolución de una jugada",
+  "loss": "Distingue el error técnico del estratégico",
+  "win": "Explica la interacción que decidió la partida",
+  "status": "Activo",
+  "behavior": "Facundo Pacini domina los rulings y recibe consultas frecuentes. Su perfil rubio, muy delgado y de ojos marrones se distingue del resto del plantel.",
+  "relationship": "Su aporte al equipo se ve cuando explica la interacción que decidió la partida.",
+  "mentality": "Comprueba el orden de resolución de una jugada. Distingue el error técnico del estratégico.",
+  "positive": [
+    "La Enciclopedia del Ruling",
+    "Orden de resolución",
+    "Disciplina de Criterio de Enciclopedia"
+  ],
+  "negative": [
+    "Todos Preguntan",
+    "Cola de consultas",
+    "Presión de Criterio de Enciclopedia"
+  ],
+  "exclusive": "Criterio de Enciclopedia",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

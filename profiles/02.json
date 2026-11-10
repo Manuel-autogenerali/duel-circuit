@@ -1,0 +1,26 @@
+{
+  "id": 2,
+  "origin": "haru",
+  "public": "El veterano del combo se hizo un lugar con estrategias poco convencionales. Le cuesta abandonar el mazo principal cuando otros le piden un cambio brusco. Su retrato conserva la cabeza calva, los ojos azules brillantes y la temática marina.",
+  "history": "El veterano del combo se hizo un lugar con estrategias poco convencionales. Le cuesta abandonar el mazo principal cuando otros le piden un cambio brusco. En el circuito ficticio, su rutina tiene una marca propia: prueba líneas alternativas antes de tocar el plan central. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, vuelve a su lista de confianza. Cuando gana, explica el giro menos evidente del duelo. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. En su siguiente prueba defenderá una lista poco popular si encuentra una buena razón para hacerlo. Quiere que el grupo compruebe sus cruces antes de exigirle que cambie de rumbo.",
+  "habit": "Prueba líneas alternativas antes de tocar el plan central",
+  "loss": "Vuelve a su lista de confianza",
+  "win": "Explica el giro menos evidente del duelo",
+  "status": "Activo",
+  "behavior": "El veterano del combo se hizo un lugar con estrategias poco convencionales. Le cuesta abandonar el mazo principal cuando otros le piden un cambio brusco.",
+  "relationship": "Su aporte al equipo se ve cuando explica el giro menos evidente del duelo.",
+  "mentality": "Prueba líneas alternativas antes de tocar el plan central. Vuelve a su lista de confianza.",
+  "positive": [
+    "Monstruo de las Profundidades",
+    "Corriente profunda",
+    "Disciplina de Ruta de la marea"
+  ],
+  "negative": [
+    "Pez Fuera del Agua",
+    "Aguas ajenas",
+    "Presión de Ruta de la marea"
+  ],
+  "exclusive": "Ruta de la marea",
+  "context": "local",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

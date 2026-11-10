@@ -1,0 +1,26 @@
+{
+  "id": 40,
+  "origin": "lair",
+  "public": "Dante Voss busca dominar el intercambio desde una posición de control. Su autonomía le sirve para decidir bajo presión y le dificulta aceptar órdenes ajenas.",
+  "history": "Dante Voss busca dominar el intercambio desde una posición de control. Su autonomía le sirve para decidir bajo presión y le dificulta aceptar órdenes ajenas. En el circuito ficticio, su rutina tiene una marca propia: marca condiciones antes de ceder iniciativa. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, prefiere rehacer su plan antes de pedir consejo. Cuando gana, examina cuánto del resultado pudo controlar. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Dante quiere llegar a la próxima fecha con decisiones que pueda defender bajo presión. El mánager tendrá que negociar los cambios para que su autonomía no se convierta en un choque de mando.",
+  "habit": "Marca condiciones antes de ceder iniciativa",
+  "loss": "Prefiere rehacer su plan antes de pedir consejo",
+  "win": "Examina cuánto del resultado pudo controlar",
+  "status": "Activo",
+  "behavior": "Dante Voss busca dominar el intercambio desde una posición de control. Su autonomía le sirve para decidir bajo presión y le dificulta aceptar órdenes ajenas.",
+  "relationship": "Su aporte al equipo se ve cuando examina cuánto del resultado pudo controlar.",
+  "mentality": "Marca condiciones antes de ceder iniciativa. Prefiere rehacer su plan antes de pedir consejo.",
+  "positive": [
+    "Dominio Absoluto",
+    "Autoridad de mesa",
+    "Disciplina de Última palabra"
+  ],
+  "negative": [
+    "Nadie Me Da Órdenes",
+    "Choque de mando",
+    "Presión de Última palabra"
+  ],
+  "exclusive": "Última palabra",
+  "context": "official",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

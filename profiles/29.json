@@ -1,0 +1,26 @@
+{
+  "id": 29,
+  "origin": "sekai",
+  "public": "Johan Cruif aprende el ritmo de los torneos locales. Esa familiaridad le ayuda a presionar en una sala conocida y pesa menos en citas ajenas.",
+  "history": "Johan Cruif aprende el ritmo de los torneos locales. Esa familiaridad le ayuda a presionar en una sala conocida y pesa menos en citas ajenas. En el circuito ficticio, su rutina tiene una marca propia: observa qué se juega en las mesas cercanas. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, ajusta el inicio al ambiente de la sala. Cuando gana, invita a repetir la partida en el próximo local. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. En un local reconoce cuándo el ambiente favorece acelerar. En una sala nueva prefiere observar las primeras mesas y encontrar un ritmo de competencia que pueda sostener por sí mismo.",
+  "habit": "Observa qué se juega en las mesas cercanas",
+  "loss": "Ajusta el inicio al ambiente de la sala",
+  "win": "Invita a repetir la partida en el próximo local",
+  "status": "Activo",
+  "behavior": "Johan Cruif aprende el ritmo de los torneos locales. Esa familiaridad le ayuda a presionar en una sala conocida y pesa menos en citas ajenas.",
+  "relationship": "Su aporte al equipo se ve cuando invita a repetir la partida en el próximo local.",
+  "mentality": "Observa qué se juega en las mesas cercanas. Ajusta el inicio al ambiente de la sala.",
+  "positive": [
+    "Dueño de Casa",
+    "Lectura de sala",
+    "Disciplina de Cancha propia"
+  ],
+  "negative": [
+    "La Cancha de Afuera",
+    "Visita incómoda",
+    "Presión de Cancha propia"
+  ],
+  "exclusive": "Cancha propia",
+  "context": "local",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}

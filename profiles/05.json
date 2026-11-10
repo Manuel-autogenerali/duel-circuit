@@ -1,0 +1,26 @@
+{
+  "id": 5,
+  "origin": "korium",
+  "public": "El profesor del circuito entiende el testeo como un laboratorio. Su versatilidad le permite reformular planes, aunque puede cansarse de sesiones repetitivas.",
+  "history": "El profesor del circuito entiende el testeo como un laboratorio. Su versatilidad le permite reformular planes, aunque puede cansarse de sesiones repetitivas. En el circuito ficticio, su rutina tiene una marca propia: registra hipótesis en hojas separadas. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, cambia una sola variable por vez. Cuando gana, pide a alguien que reproduzca la prueba. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. El próximo experimento tiene una regla: si el resultado no se puede repetir, vuelve al cuaderno. Así puede separar un hallazgo real de la euforia de una noche de testeo.",
+  "habit": "Registra hipótesis en hojas separadas",
+  "loss": "Cambia una sola variable por vez",
+  "win": "Pide a alguien que reproduzca la prueba",
+  "status": "Activo",
+  "behavior": "El profesor del circuito entiende el testeo como un laboratorio. Su versatilidad le permite reformular planes, aunque puede cansarse de sesiones repetitivas.",
+  "relationship": "Su aporte al equipo se ve cuando pide a alguien que reproduzca la prueba.",
+  "mentality": "Registra hipótesis en hojas separadas. Cambia una sola variable por vez.",
+  "positive": [
+    "Dominio de Laboratorio",
+    "Hipótesis replicable",
+    "Disciplina de Protocolo Alegretti"
+  ],
+  "negative": [
+    "Fatiga de Testeo",
+    "Saturación de laboratorio",
+    "Presión de Protocolo Alegretti"
+  ],
+  "exclusive": "Protocolo Alegretti",
+  "context": "book",
+  "review": "Ampliación ficticia · pendiente de revisión"
+}
