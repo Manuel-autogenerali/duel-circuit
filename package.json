@@ -1,11 +1,11 @@
 {
   "name": "duel-circuit-beta",
   "private": true,
-  "version": "0.1.0",
+  "version": "2.0.0-beta",
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
-    "test": "node tests.mjs",
+    "test": "node tests-v14.mjs && node tests-v15.mjs && node tests-flow-v15.mjs && node tests-flow-v15.mjs --dark-book-only",
     "build": "node build-pages.mjs"
   }
 }

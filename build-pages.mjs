@@ -7,14 +7,22 @@ const source = fileURLToPath(new URL('.', import.meta.url));
 const target = join(source, 'dist');
 const marker = '.duel-circuit-build.json';
 const runtime = [
+ 'update15.js','events15.js','interviews15.js',
  'index.html','galeria.html','revision.html','style.css','manifest.webmanifest','icon.svg',
  'app.js','avatars.js','career.js','circuit.js','data.js','encyclopedia.js','finances.js',
  'galeria.js','mechanics.js','opening.js','press.js','profiles-data.js','revision.js',
- 'sw.js','tournaments.js','weekend.js',
+ 'sw.js','tournaments.js','weekend.js','social.js','dialogues.js','personalities.js','character-news.js','relationships.js','competition.js',
  'public/assets/characters/manifest.json',
  ...Array.from({length:40},(_,i)=>'public/assets/characters/duelist-'+String(i+1).padStart(2,'0')+'.webp'),
  ...['arena','mili-welcome','mili-explain','mili-surprise','mili-celebrate','mili-warn','mili-farewell'].map(name=>'public/assets/opening/'+name+'.webp')
 ];
+for (const directory of ['public/assets/cinema','public/assets/scenes','public/assets/characters/variants']) {
+ const artwork=await filesAt(join(source,directory),directory+'/').catch(error=>{
+  if(error.code==='ENOENT')return [];
+  throw error;
+ });
+ runtime.push(...artwork.filter(path=>path.endsWith('.webp')).sort());
+}
 const contents = new Map(await Promise.all(runtime.map(async path=>[path,await readFile(join(source,path))])));
 const digest = createHash('sha256');
 for(const [path,bytes] of contents)digest.update(path+'\0').update(bytes);

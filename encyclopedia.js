@@ -15,8 +15,8 @@ function secondaryValues(p){
 function originalDrawback(p,state,context,club){
  const fatigue=state.fatigue[p.id]||0;
  if([9,11].includes(p.id))return context==='team'&&![9,10,11].every(id=>state.owned[id]===club)?-.10:0;
- if(p.id===30)return context==='team'&&fatigue>=6?-.08:0;
- if(p.id===37)return context==='local'&&fatigue>=6?-.08:0;
+ if(p.id===30)return context==='team'&&fatigue>=8?-.08:0;
+ if(p.id===37)return context==='local'&&fatigue>=8?-.08:0;
  return 0;
 }
 export function profileEffects(p,state,context,club){
@@ -25,9 +25,9 @@ export function profileEffects(p,state,context,club){
  const prepared=club===state.team?(state.prep||0)>=4:d.mastery[d.style]>=80;
  return originalDrawback(p,state,context,club)
   +(d.style===favoriteStyle(p)&&d.mastery[d.style]>=65?v.signature:0)
-  +(prepared&&fatigue<=4?v.prepared:0)
+  +(prepared&&fatigue<8?v.prepared:0)
   -(d.adaptation>=35?v.adaptation:0)
-  -(fatigue>=7?v.fatigue:0)
+  -(fatigue>=8?v.fatigue:0)
   -(morale<0&&context!=='book'?v.morale:0)
   +(context===profiles[p.id].context&&specialReady(p,state,club)?specialBoost(p):0);
 }
@@ -42,7 +42,7 @@ function specialReady(p,state,club){
  if(p.id===32)return d.mastery[d.style]>=70&&!o?.exhaustion;
  if(p.id===37)return club==='sekai'||(state.synergy||0)>=3;
  if(p.id===38)return d.mastery[d.style]>=75;
- return d.style===favoriteStyle(p)&&(state.fatigue[p.id]||0)<=4;
+ return d.style===favoriteStyle(p)&&(state.fatigue[p.id]||0)<8;
 }
 const numeric=(n=0)=>Number(n.toFixed(4)).toLocaleString('es-AR',{maximumFractionDigits:4});
 const delta=n=>(n>0?'+':'')+numeric(n);
@@ -66,10 +66,10 @@ function originalRule(p,positive){
   if(a.absence)effects.push({key:'agenda',condition:'cuando está disponible para competir físicamente',effect:'límite de un torneo físico por semana'});
   add('swing',a.swing,'al evaluar el rendimiento','una mala variación puede restar hasta '+numeric(a.swing));
   add('morale',a.form,'moral negativa','resta '+numeric(a.form)+' de rendimiento por cada punto por debajo de cero');
-  add('fatigue',a.fatigue,'con fatiga superior a cero','resta adicional de '+numeric(a.fatigue)+' de rendimiento por punto de fatiga');
+  add('fatigue',a.fatigue,'con fatiga de 8 o más','resta adicional de '+numeric(a.fatigue)+' de rendimiento por punto de fatiga desde 8 (se cuentan fatiga − 7 puntos)');
   if([9,11].includes(p.id))add('siblings',.10,'en 3v3, si sus hermanos no comparten equipo','−0,10 de rendimiento');
-  if(p.id===30)add('support',.08,'en 3v3 con fatiga de 6 o más','−0,08 de rendimiento');
-  if(p.id===37)add('support',.08,'en un local con fatiga de 6 o más','−0,08 de rendimiento');
+  if(p.id===30)add('support',.08,'en 3v3 con fatiga de 8 o más','−0,08 de rendimiento');
+  if(p.id===37)add('support',.08,'en un local con fatiga de 8 o más','−0,08 de rendimiento');
  }
  const first=effects[0];
  return profileRule(first?first.effect.charAt(0).toUpperCase()+first.effect.slice(1)+'.':'Efecto pendiente de revisión.',
@@ -88,12 +88,12 @@ export function characterAbilities(p,profile,level){
  const positive=[
   originalRule(p,true),
   plus('Aprovecha el dominio de su estilo favorito.','Estilo favorito equipado y dominio de 65 o más.',v.signature,'Puede sumarse al beneficio de preparación y a la mecánica exclusiva.'),
-  plus('Saca provecho de un plan preparado.','Preparación del equipo del mánager ≥4 (o dominio del mazo rival ≥80) y fatiga ≤4.',v.prepared,'Puede sumarse al dominio del estilo favorito. La fatiga superior a 4 desactiva este beneficio.')
+  plus('Saca provecho de un plan preparado.','Preparación del equipo del mánager ≥4 (o dominio del mazo rival ≥80) y fatiga <8.',v.prepared,'Puede sumarse al dominio del estilo favorito. La fatiga de 8 o más desactiva este beneficio.')
  ];
  const negative=[
   originalRule(p,false),
   minus('Pierde precisión al estrenar un mazo.', 'Adaptación pendiente de 35 o más.',v.adaptation,'Practicá con el mazo en testeo, torneos o Dark Book.'),
-  profileRule('Le pesan la fatiga alta y la moral baja.','Fatiga de 7 o más: '+delta(-v.fatigue)+'. Moral negativa en un duelo físico: '+delta(-v.morale)+'.','Fatiga ≥7 o moral del equipo por debajo de 0 fuera de Dark Book.','Ambos valores se aplican al rendimiento y se suman si coinciden.','Mientras dure cada estado, se reevalúa en cada duelo.','Cada penalización se aplica como máximo una vez por evaluación.','Se suma al desgaste de fatiga que ya aplica el motor.','El descanso reduce la fatiga. Las acciones que mejoran la moral reducen la otra penalización.')
+  profileRule('Le pesan la fatiga alta y la moral baja.','Fatiga de 8 o más: '+delta(-v.fatigue)+'. Moral negativa en un duelo físico: '+delta(-v.morale)+'.','Fatiga ≥8 o moral del equipo por debajo de 0 fuera de Dark Book.','Ambos valores se aplican al rendimiento y se suman si coinciden.','Mientras dure cada estado, se reevalúa en cada duelo.','Cada penalización se aplica como máximo una vez por evaluación.','Se suma al desgaste de fatiga que ya aplica el motor.','El descanso reduce la fatiga. Las acciones que mejoran la moral reducen la otra penalización.')
  ];
  return Object.entries({positive,negative}).flatMap(([type,rules])=>rules.map((rule,i)=>{
   const visibility=level===3||level===2&&(type==='positive'?i<2:i===0)?'known':level===2&&type==='negative'&&i===1||level===1&&i===0?'hint':'hidden';
@@ -104,7 +104,7 @@ export function characterAbilities(p,profile,level){
  }));
 }
 export function exclusiveRule(p){
- const condition=[9,10,11].includes(p.id)?'los tres Mujica comparten equipo':({3:'integra la alineación titular',5:'la adaptación pendiente es ≤25',20:'su equipo tiene preparación ≥4',32:'tiene dominio ≥70 y no está agotado',37:'compite por Sekai o la sinergia llega a 3',38:'su mazo llega a 75 de dominio'}[p.id]||'conserva su estilo favorito con fatiga ≤4');
+ const condition=[9,10,11].includes(p.id)?'los tres Mujica comparten equipo':({3:'integra la alineación titular',5:'la adaptación pendiente es ≤25',20:'su equipo tiene preparación ≥4',32:'tiene dominio ≥70 y no está agotado',37:'compite por Sekai o la sinergia llega a 3',38:'su mazo llega a 75 de dominio'}[p.id]||'conserva su estilo favorito con fatiga <8');
  return 'En '+contexts[profiles[p.id].context]+', suma '+delta(specialBoost(p))+' al rendimiento si '+condition+'. Se aplica una vez por evaluación y puede combinarse con las demás ventajas.';
 }
 

@@ -1,0 +1,1162 @@
+[
+  {
+    "team": "korium",
+    "weeks": [
+      {
+        "week": 1,
+        "credits": 335,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 2,
+        "credits": 450,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 3,
+        "credits": 565,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 4,
+        "credits": 680,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 5,
+        "credits": 795,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 6,
+        "credits": 910,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 7,
+        "credits": 1025,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 8,
+        "credits": 1140,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 9,
+        "credits": 1243,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 10,
+        "credits": 1346,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 11,
+        "credits": 1449,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 12,
+        "credits": 1517,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 13,
+        "credits": 1620,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 14,
+        "credits": 1723,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 15,
+        "credits": 1826,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 16,
+        "credits": 1894,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 17,
+        "credits": 1997,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 18,
+        "credits": 2100,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 19,
+        "credits": 2203,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 20,
+        "credits": 2271,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      }
+    ]
+  },
+  {
+    "team": "garden",
+    "weeks": [
+      {
+        "week": 1,
+        "credits": 335,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 2,
+        "credits": 450,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 3,
+        "credits": 565,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 4,
+        "credits": 680,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 5,
+        "credits": 795,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 6,
+        "credits": 910,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 7,
+        "credits": 1025,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 8,
+        "credits": 1140,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 9,
+        "credits": 1243,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 10,
+        "credits": 1346,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 11,
+        "credits": 1449,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 12,
+        "credits": 1517,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 13,
+        "credits": 1620,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 14,
+        "credits": 1723,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 15,
+        "credits": 1826,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 16,
+        "credits": 1894,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 17,
+        "credits": 1997,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 18,
+        "credits": 2100,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 19,
+        "credits": 2203,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 20,
+        "credits": 2271,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      }
+    ]
+  },
+  {
+    "team": "mujica",
+    "weeks": [
+      {
+        "week": 1,
+        "credits": 345,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 2,
+        "credits": 470,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 3,
+        "credits": 595,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 4,
+        "credits": 720,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 5,
+        "credits": 845,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 6,
+        "credits": 970,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 7,
+        "credits": 1095,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 8,
+        "credits": 1220,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 9,
+        "credits": 1333,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 10,
+        "credits": 1446,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 11,
+        "credits": 1559,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 12,
+        "credits": 1637,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 13,
+        "credits": 1750,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 14,
+        "credits": 1863,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 15,
+        "credits": 1976,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 16,
+        "credits": 2054,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 17,
+        "credits": 2167,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 18,
+        "credits": 2280,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 19,
+        "credits": 2393,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      },
+      {
+        "week": 20,
+        "credits": 2471,
+        "roster": 3,
+        "maintenance": 145,
+        "debt": 0
+      }
+    ]
+  },
+  {
+    "team": "sekai",
+    "weeks": [
+      {
+        "week": 1,
+        "credits": 345,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 2,
+        "credits": 470,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 3,
+        "credits": 595,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 4,
+        "credits": 720,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 5,
+        "credits": 845,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 6,
+        "credits": 970,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 7,
+        "credits": 1095,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 8,
+        "credits": 1220,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 9,
+        "credits": 1321,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 10,
+        "credits": 1422,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 11,
+        "credits": 1523,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 12,
+        "credits": 1589,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 13,
+        "credits": 1690,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 14,
+        "credits": 1791,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 15,
+        "credits": 1892,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 16,
+        "credits": 1958,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 17,
+        "credits": 2059,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 18,
+        "credits": 2160,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 19,
+        "credits": 2261,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 20,
+        "credits": 2327,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      }
+    ]
+  },
+  {
+    "team": "obelisk",
+    "weeks": [
+      {
+        "week": 1,
+        "credits": 355,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 2,
+        "credits": 490,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 3,
+        "credits": 625,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 4,
+        "credits": 760,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 5,
+        "credits": 895,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 6,
+        "credits": 1030,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 7,
+        "credits": 1165,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 8,
+        "credits": 1300,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 9,
+        "credits": 1423,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 10,
+        "credits": 1546,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 11,
+        "credits": 1669,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 12,
+        "credits": 1757,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 13,
+        "credits": 1880,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 14,
+        "credits": 2003,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 15,
+        "credits": 2126,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 16,
+        "credits": 2214,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 17,
+        "credits": 2337,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 18,
+        "credits": 2460,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 19,
+        "credits": 2583,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 20,
+        "credits": 2671,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      }
+    ]
+  },
+  {
+    "team": "dima",
+    "weeks": [
+      {
+        "week": 1,
+        "credits": 330,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 2,
+        "credits": 440,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 3,
+        "credits": 550,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 4,
+        "credits": 660,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 5,
+        "credits": 770,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 6,
+        "credits": 880,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 7,
+        "credits": 990,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 8,
+        "credits": 1100,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 9,
+        "credits": 1186,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 10,
+        "credits": 1272,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 11,
+        "credits": 1358,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 12,
+        "credits": 1409,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 13,
+        "credits": 1495,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 14,
+        "credits": 1581,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 15,
+        "credits": 1667,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 16,
+        "credits": 1718,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 17,
+        "credits": 1804,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 18,
+        "credits": 1890,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 19,
+        "credits": 1976,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 20,
+        "credits": 2027,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      }
+    ]
+  },
+  {
+    "team": "lair",
+    "weeks": [
+      {
+        "week": 1,
+        "credits": 335,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 2,
+        "credits": 450,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 3,
+        "credits": 565,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 4,
+        "credits": 680,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 5,
+        "credits": 795,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 6,
+        "credits": 910,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 7,
+        "credits": 1025,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 8,
+        "credits": 1140,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 9,
+        "credits": 1231,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 10,
+        "credits": 1322,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 11,
+        "credits": 1413,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 12,
+        "credits": 1469,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 13,
+        "credits": 1560,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 14,
+        "credits": 1651,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 15,
+        "credits": 1742,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 16,
+        "credits": 1798,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 17,
+        "credits": 1889,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 18,
+        "credits": 1980,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 19,
+        "credits": 2071,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 20,
+        "credits": 2127,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      }
+    ]
+  },
+  {
+    "team": "haru",
+    "weeks": [
+      {
+        "week": 1,
+        "credits": 340,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 2,
+        "credits": 460,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 3,
+        "credits": 580,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 4,
+        "credits": 700,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 5,
+        "credits": 820,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 6,
+        "credits": 940,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 7,
+        "credits": 1060,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 8,
+        "credits": 1180,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 9,
+        "credits": 1280,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 10,
+        "credits": 1380,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 11,
+        "credits": 1480,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 12,
+        "credits": 1545,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 13,
+        "credits": 1645,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 14,
+        "credits": 1745,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 15,
+        "credits": 1845,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 16,
+        "credits": 1910,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 17,
+        "credits": 2010,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 18,
+        "credits": 2110,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 19,
+        "credits": 2210,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      },
+      {
+        "week": 20,
+        "credits": 2275,
+        "roster": 2,
+        "maintenance": 65,
+        "debt": 0
+      }
+    ]
+  }
+]

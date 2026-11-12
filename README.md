@@ -1,4 +1,11 @@
-# Duel Circuit · Beta 0.1
+# Duel Circuit · Beta 2.0
+
+[Jugá en GitHub Pages](https://manuel-autogenerali.github.io/duel-circuit/). En Windows, podés abrir **Probar Beta 2.0.cmd** para jugar en local.
+
+La Beta 2.0 incluye el rediseño visual, el tutorial de Mili, las tarjetas de personajes, las entrevistas, los informes semanales por duelista y los ajustes de economía, fichajes y navegación de la Actualización 15.
+
+Si ya jugaste en GitHub Pages, usá **Continuar** en el mismo navegador. Para llevar una partida desde la versión local, exportá el JSON desde Ajustes e importalo desde la portada.
+
 
 En Windows, hacé doble clic en **Jugar.cmd** y abrí la dirección que aparece en la consola. Habitualmente es http://127.0.0.1:8080/. Si ese puerto está ocupado, el lanzador prueba el 8081 y luego pide un puerto libre al sistema. Dejá abierta la consola. También podés ejecutar `npm start` desde esta carpeta.
 
@@ -74,7 +81,7 @@ Duel Circuit es un juego estático de HTML, CSS y JavaScript. Node.js se utiliza
 2. Copiá el contenido del paquete de publicación a la raíz del repositorio, incluida la carpeta `.github` y el archivo `.gitignore`. El `index.html` debe quedar en la raíz.
 3. En GitHub abrí **Settings → Pages → Build and deployment → Source → GitHub Actions**.
 4. Subí los cambios a `main`. Si ya estaban subidos antes de activar Pages, ejecutá **Actions → Deploy Duel Circuit to GitHub Pages → Run workflow** en `main`.
-5. Cuando termine el despliegue, usá **Settings → Pages → Visit site**. La URL estándar es `https://TU-USUARIO.github.io/duel-circuit/`.
+5. Cuando termine el despliegue, usá **Settings → Pages → Visit site**. La URL estándar es `https://manuel-autogenerali.github.io/duel-circuit/`.
 
 Para publicar una actualización, corré `npm test` y `npm run build` en la carpeta del proyecto y subí los cambios de código a `main`. GitHub Actions vuelve a correr las pruebas, crea `dist/` y publica únicamente ese artefacto. `dist/` se genera en cada ejecución y no se sube al repositorio.
 

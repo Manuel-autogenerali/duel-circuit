@@ -1,5 +1,7 @@
-import {ensureCircuit,bond,discount,valuation,distribution,favorite} from './circuit.js';
-import {players, teams, initialAssignments, formats} from './data.js';
+import {localLimit} from './competition.js';
+import {relation,recruitmentGate,interviewPassed} from './social.js';
+import {ensureCircuit,bond,discount} from './circuit.js';
+import {players, teams, initialAssignments} from './data.js';
 import {trio, abilities} from './mechanics.js';
 
 export const founders = {34:'korium',35:'garden',9:'mujica'};
@@ -28,7 +30,7 @@ export function begin(state,id,name,color,emblem){
  return true;
 }
 
-export const expansionMultiplier=index=>[1,1.4,1.9,2.5,3.2][index]??Math.min(5,3.2+.35*(index-4));
+export const expansionMultiplier=index=>[1,1.4,1.9,2.5,3.2][index]??3.2;
 export function contractLedger(state,team=state.team){
  state.contracts??={};
  if(!state.contracts[team]){
@@ -45,20 +47,43 @@ export function recordContract(state,team,ids,cost){
  const ledger=contractLedger(state,team);
  ledger.count+=ids.length;ledger.lastWeek=state.week;ledger.spent=cost;
 }
+const pricePoints=[[1,440],[2,480],[3,530],[3.5,600],[4,750],[5,1100]];
+export function recruitmentBasePrice(stars){
+ const bounded=Math.max(1,Math.min(5,stars));
+ const upper=pricePoints.findIndex(([rating])=>rating>=bounded);
+ if(upper===0)return pricePoints[0][1];
+ const [lowRating,lowPrice]=pricePoints[upper-1], [highRating,highPrice]=pricePoints[upper];
+ return Math.round(lowPrice+(highPrice-lowPrice)*(bounded-lowRating)/(highRating-lowRating));
+}
 export function offerQuote(state,ids,team=state.team){
  const count=contractLedger(state,team).count;
  const c=ensureCircuit(state);
- const bases=ids.map(id=>{const p=get(id),club=state.owned[id]||origins[id],stars=Math.min(p.potential??5,p.stars+Math.floor((state.xp?.[id]||0)/120)*.5+(state.aiBoost?.[id]||0));return valuation(p,stars,state.morale?.[club]||0,distribution(formats[c.format%formats.length])[favorite(p)]);});
+ const bases=ids.map(id=>{
+  const p=get(id);
+  const stars=Math.min(p.potential??5,p.stars+Math.floor((state.xp?.[id]||0)/120)*.5+(state.aiBoost?.[id]||0));
+  return recruitmentBasePrice(stars);
+ });
  const base=bases.reduce((sum,n)=>sum+n,0);
+ const personal=Math.min(.06,relation(state,ids[0],team)/1000);
  const expanded=bases.reduce((sum,n,i)=>sum+n*expansionMultiplier(count+i),0);
- const club=state.owned[ids[0]]||origins[ids[0]], cut=discount(bond(c,team,club),team===state.team?(c.reputation[origins[ids[0]]]||0):0);
- return {price:Math.max(state.week===1?101:1,Math.round(expanded*(1-cut))),base,multiplier:expanded/base,discount:cut};
+ const club=state.owned[ids[0]]||origins[ids[0]];
+ const cut=Math.min(.25,discount(bond(c,team,club),team===state.team?(c.reputation[origins[ids[0]]]||0):0)+personal);
+ return {price:Math.round(expanded*(1-cut)),base,multiplier:expanded/base,discount:cut};
 }
 export function offers(state,random=Math.random){
  const roster=players.filter(p=>state.owned[p.id]===state.team);
  const missingTrio=trio.filter(id=>state.owned[id]!==state.team);
  const canOfferTrio=missingTrio.length&&missingTrio.length+roster.length<=5&&missingTrio.every(id=>!state.unavailable.includes(id));
- const candidates=players.filter(p=>!roster.includes(p)&&!state.unavailable.includes(p.id)&&(!trio.includes(p.id)||(canOfferTrio&&p.id===missingTrio[0])));
+ const candidates=players.filter(p=>!roster.includes(p)&&!state.unavailable.includes(p.id)&&(!state.social||recruitmentGate(state,p).ok)&&(!trio.includes(p.id)||(canOfferTrio&&p.id===missingTrio[0])));
+ if(state.social){
+  const rotation=(a,b)=>((a.id+state.week)%41)-((b.id+state.week)%41);
+  const affordable=[...candidates].sort((a,b)=>Math.abs(a.stars-3)-Math.abs(b.stars-3)||rotation(a,b))[0];
+  const featured=candidates.filter(p=>p!==affordable).sort((a,b)=>Math.abs(a.stars-3.5)-Math.abs(b.stars-3.5)||rotation(a,b));
+  return [affordable,...featured].filter(Boolean).slice(0,3).map(p=>{
+   const ids=trio.includes(p.id)?missingTrio:[p.id];
+   return {id:p.id,ids,face:1,band:1,...offerQuote(state,ids),status:'open'};
+  });
+ }
  const result=[];
  for(let i=0;i<3&&candidates.length;i++){
   const face=roll(random);
@@ -93,10 +118,11 @@ export function recruit(state,id,format,random=Math.random){
  const o=state.offers.find(o=>o.id===id&&o.status==='open');
  const size=players.filter(p=>state.owned[p.id]===state.team).length;
  if(!o||!canSign(state))return false;
+ if(state.social&&(!recruitmentGate(state,get(id)).ok||!(interviewPassed(state,id)||state.update15?.interview?.id===id&&state.update15.interview.phase==='end'&&state.update15.interview.week===state.week)))return false;
  const ids=o.ids||[id];
  Object.assign(o,offerQuote(state,ids));
  if(size+ids.length>5||state.credits<o.price+(state.weekly?.type==='coach'?(state.weekly.cost??450):0)||ids.some(id=>state.owned[id]===state.team))return false;
- if(random()*100>=fit(state,get(id),format).chance){o.status='declined';return 'rechazó la oferta'}
+ if(!state.social&&random()*100>=fit(state,get(id),format).chance){o.status='declined';return 'rechazó la oferta'}
  state.credits-=o.price;
  recordContract(state,state.team,ids,o.price);
  ids.forEach(id=>state.owned[id]=state.team);
@@ -105,7 +131,7 @@ export function recruit(state,id,format,random=Math.random){
  return 'se incorporó al equipo';
 }
 
-export const cap = (state,id) => state.unavailable.includes(id)?0:(abilities[id-1].absence?1:2);
+export const cap = (state,id) => state.unavailable.includes(id)?0:localLimit(get(id));
 export function enroll(state,event,ids){
  if((event.type==='team'?ids.length!==3:ids.length<1)||new Set(ids).size!==ids.length)return false;
  if(ids.some(id=>state.owned[id]!==state.team||Object.entries(state.entries).filter(([key,list])=>key!==event.key&&list.includes(id)).length>=cap(state,id)))return false;

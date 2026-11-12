@@ -1,3 +1,4 @@
+import {onlineResistance,relation} from './social.js';
 import {players,teams,formats} from './data.js';
 import {abilities} from './mechanics.js';
 export const styles=['Aggro','Combo','Control','Push','Mixto'];
@@ -74,7 +75,7 @@ export function talk(state,p,style,mode,near,random=Math.random){
  const c=ensureCircuit(state),d=c.decks[p.id];
  if(state.week-d.lastTalk<4||state.owned[p.id]!==state.team||!Number.isInteger(style)||style<0||style>4)return null;
  d.lastTalk=state.week;
- const chance=mode==='keep'?95:clamp(25+d.trust*.42+d.mastery[style]*.18+(state.synergy||0)*.9+Math.min(8,state.week-d.since)+(state.morale[state.team]||0)*2+(p.id===5?10:p.id===2?-10:0)-(near?12:0),12,95);
+ const chance=mode==='keep'?95:clamp(25+relation(state,p.id)*.18+d.trust*.42+d.mastery[style]*.18+(state.synergy||0)*.9+Math.min(8,state.week-d.since)+(state.morale[state.team]||0)*2+(p.id===5?10:p.id===2?-10:0)-(near?12:0),12,95);
  const ok=random()*100<chance;
  if(ok){if(mode==='change'||mode==='try'){d.trial=mode==='try'&&style!==d.style?d.style:null;changeDeck(d,style,p,state.week,mode==='try'?'Prueba acordada':'Cambio acordado');}else if(mode==='adapt')practice(c,p.id,12);d.trust=clamp(d.trust+4);}
  else if(style!==favorite(p))d.trust=clamp(d.trust-2);
@@ -94,8 +95,9 @@ export const onlineStatus=(c,id)=>c.online[id]??={count:0,streak:0,obsession:0,e
 export const onlineEligible=(state,id,physical)=>Boolean(state.circuit.decks[id])&&(physical<2||[7,27,32].includes(id));
 export function onlineLoad(state,p,wins,physical,random=Math.random){
  const c=state.circuit,o=onlineStatus(c,p.id),d=c.decks[p.id];
+ if(o.count>=4)return 0;
  o.count++;
- const fatigue=[1,2,3,4][Math.min(o.count-1,3)]+(physical?1:0)+(o.obsession?1:0);
+ const fatigue=state.social?(p.id===7?0:Math.max(0,o.count-onlineResistance(p))*2):[1,2,3,4][Math.min(o.count-1,3)]+(physical?1:0)+(o.obsession?1:0);
  state.fatigue[p.id]=clamp((state.fatigue[p.id]||0)+fatigue,0,10);
  const bonus=abilities[p.id-1].bookXP||0;
  const xp=Math.max(2,Math.round((12+wins*3+bonus*.4)*[1,.65,.35,.17][Math.min(o.count-1,3)]));
@@ -111,7 +113,7 @@ export function advanceCircuit(state){
   const o=onlineStatus(c,p.id),d=c.decks[p.id];
   if(o.count<2)o.obsession=Math.max(0,o.obsession-1);
   o.streak=o.count>=3?o.streak+1:Math.max(0,o.streak-1);
-  if(o.count>=3)d.trust=clamp(d.trust-2);
+  if(o.count>=3)d.trust=clamp(d.trust-(relation(state,p.id)>=30?0:2));
   if(o.obsession&&o.count>=2){d.trust=clamp(d.trust-2);if(state.owned[p.id]===state.team)state.morale[state.team]=Math.max(-2,(state.morale[state.team]||0)-1);}
   if(!o.count)o.exhaustion=0;
   if(Number.isInteger(d.trial)){changeDeck(d,d.trial,p,state.week+1,'Fin de la prueba');d.trial=null;}

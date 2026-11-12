@@ -6,3 +6,4 @@ node_modules/
 *.key
 duel-circuit-partida*.json
 revision-duelista-*.json
+news-v14-test-results.json

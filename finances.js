@@ -27,6 +27,7 @@ export function settleFinance(state,week,events,teamIds){
   const passed=evaluation?club.played>=2&&club.good>=1:null;
   const review=evaluation?{passed,played:club.played,good:club.good}:null;
   const charges=costs(id,Object.values(state.owned).filter(t=>t===id).length);
+  if(state.social){charges.roster=0;charges.maintenance=0;}
   const penalty=passed===false?financeRules.penalty:0;
   const previousDebt=club.debt;
   const due=Object.values(charges).reduce((n,v)=>n+v,0)+penalty+previousDebt;

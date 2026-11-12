@@ -600,13 +600,13 @@ export const profiles = {
   "24": {
     "id": 24,
     "origin": "garden",
-    "public": "Joaquín Pohagi evita copiar el consenso cuando cree que una ruta alternativa tiene mejores cruces. Su mayor desafío es saber cuándo dejar de experimentar.",
-    "history": "Joaquín Pohagi evita copiar el consenso cuando cree que una ruta alternativa tiene mejores cruces. Su mayor desafío es saber cuándo dejar de experimentar. En el circuito ficticio, su rutina tiene una marca propia: compara una lista estable con otra fuera del meta. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, conserva la idea y descarta la ejecución. Cuando gana, intenta confirmar el resultado contra otro rival. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Una lista alternativa solo merece quedarse si resuelve un cruce que el consenso deja abierto. Su objetivo es distinguir ese hallazgo de una prueba vistosa que no aguanta otra ronda.",
+    "public": "Joaquín Pohaji evita copiar el consenso cuando cree que una ruta alternativa tiene mejores cruces. Su mayor desafío es saber cuándo dejar de experimentar.",
+    "history": "Joaquín Pohaji evita copiar el consenso cuando cree que una ruta alternativa tiene mejores cruces. Su mayor desafío es saber cuándo dejar de experimentar. En el circuito ficticio, su rutina tiene una marca propia: compara una lista estable con otra fuera del meta. Ese gesto dice bastante sobre cómo entiende la preparación y qué espera de la gente con la que comparte mesa. Cuando pierde, conserva la idea y descarta la ejecución. Cuando gana, intenta confirmar el resultado contra otro rival. En la sede de su equipo de origen, esas reacciones se convierten en parte de su manera de convivir con el plantel. Una lista alternativa solo merece quedarse si resuelve un cruce que el consenso deja abierto. Su objetivo es distinguir ese hallazgo de una prueba vistosa que no aguanta otra ronda.",
     "habit": "Compara una lista estable con otra fuera del meta",
     "loss": "Conserva la idea y descarta la ejecución",
     "win": "Intenta confirmar el resultado contra otro rival",
     "status": "Activo",
-    "behavior": "Joaquín Pohagi evita copiar el consenso cuando cree que una ruta alternativa tiene mejores cruces. Su mayor desafío es saber cuándo dejar de experimentar.",
+    "behavior": "Joaquín Pohaji evita copiar el consenso cuando cree que una ruta alternativa tiene mejores cruces. Su mayor desafío es saber cuándo dejar de experimentar.",
     "relationship": "Su aporte al equipo se ve cuando intenta confirmar el resultado contra otro rival.",
     "mentality": "Compara una lista estable con otra fuera del meta. Conserva la idea y descarta la ejecución.",
     "positive": [

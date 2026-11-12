@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "Mati Pico",
+    "personality": "amables",
+    "darkBook": 2,
+    "locals": 1,
+    "rest": 3
+  },
+  {
+    "id": 2,
+    "name": "Pulpoul McCartney",
+    "personality": "extrovertidos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 3,
+    "name": "Julito",
+    "personality": "extrovertidos",
+    "darkBook": 1,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 4,
+    "name": "Nico Morilla",
+    "personality": "deprimidos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 5,
+    "name": "Julián Alegretti",
+    "personality": "serios",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 6,
+    "name": "Felipe Zapata",
+    "personality": "serios",
+    "darkBook": 2,
+    "locals": 1,
+    "rest": 3
+  },
+  {
+    "id": 7,
+    "name": "Franco Parzano",
+    "personality": "amables",
+    "darkBook": 4,
+    "locals": 1,
+    "rest": 3
+  },
+  {
+    "id": 8,
+    "name": "Tayel Fernández",
+    "personality": "extrovertidos",
+    "darkBook": 2,
+    "locals": 1,
+    "rest": 3
+  },
+  {
+    "id": 9,
+    "name": "Thiago Mujica",
+    "personality": "villanos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 10,
+    "name": "Kevin Mujica",
+    "personality": "extrovertidos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 11,
+    "name": "Johnny Mujica",
+    "personality": "serios",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 12,
+    "name": "Matías López",
+    "personality": "villanos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 13,
+    "name": "Mikazuchi",
+    "personality": "serios",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 14,
+    "name": "Juli Jiménez",
+    "personality": "serios",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 15,
+    "name": "Krawler",
+    "personality": "villanos",
+    "darkBook": 1,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 16,
+    "name": "Carlitos Vala",
+    "personality": "serios",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 17,
+    "name": "Therian",
+    "personality": "villanos",
+    "darkBook": 1,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 18,
+    "name": "Alan",
+    "personality": "amables",
+    "darkBook": 1,
+    "locals": 1,
+    "rest": 3
+  },
+  {
+    "id": 19,
+    "name": "Fabio",
+    "personality": "extrovertidos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 20,
+    "name": "Franquito",
+    "personality": "deprimidos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 21,
+    "name": "Mateo Blanco",
+    "personality": "deprimidos",
+    "darkBook": 1,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 22,
+    "name": "Julián Malek",
+    "personality": "extrovertidos",
+    "darkBook": 2,
+    "locals": 1,
+    "rest": 2
+  },
+  {
+    "id": 23,
+    "name": "Tomás Dark Duguera",
+    "personality": "deprimidos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 24,
+    "name": "Joaquín Pohaji",
+    "personality": "extrovertidos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 25,
+    "name": "Gaby Kaibaman",
+    "personality": "deprimidos",
+    "darkBook": 1,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 26,
+    "name": "Joako Polonia",
+    "personality": "deprimidos",
+    "darkBook": 1,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 27,
+    "name": "El Pollo",
+    "personality": "deprimidos",
+    "darkBook": 2,
+    "locals": 1,
+    "rest": 2
+  },
+  {
+    "id": 28,
+    "name": "Juani el Gigante",
+    "personality": "amables",
+    "darkBook": 1,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 29,
+    "name": "Johan Cruif",
+    "personality": "amables",
+    "darkBook": 1,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 30,
+    "name": "Aquiles",
+    "personality": "deprimidos",
+    "darkBook": 1,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 31,
+    "name": "Cavero",
+    "personality": "villanos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 32,
+    "name": "Manu",
+    "personality": "amables",
+    "darkBook": 3,
+    "locals": 1,
+    "rest": 3
+  },
+  {
+    "id": 33,
+    "name": "Julián D'Angelo",
+    "personality": "amables",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 34,
+    "name": "Mauro",
+    "personality": "serios",
+    "darkBook": 1,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 35,
+    "name": "Christopher Morán",
+    "personality": "villanos",
+    "darkBook": 1,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 36,
+    "name": "Leo Rosendorn",
+    "personality": "extrovertidos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 37,
+    "name": "Nico TCG",
+    "personality": "amables",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 38,
+    "name": "Facundo Pacini",
+    "personality": "serios",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 2
+  },
+  {
+    "id": 39,
+    "name": "Valeria Noctis",
+    "personality": "villanos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  },
+  {
+    "id": 40,
+    "name": "Dante Voss",
+    "personality": "villanos",
+    "darkBook": 2,
+    "locals": 2,
+    "rest": 3
+  }
+]

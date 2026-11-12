@@ -83,7 +83,7 @@ export function swissTournament(field,config,random=Math.random){
    const a=live[i],b=live[i+1];if(!b){next.push(a);continue}
    const winner=match(a,b), loser=winner===a?b:a;
    loser.place=live.length/2+1;
-   bracket.push({stage:live.length,winner:winner.name,loser:loser.name});
+   bracket.push({stage:live.length,winner:winner.name,loser:loser.name,winnerId:winner.id,loserId:loser.id});
    next.push(winner);
   }
   live=next;

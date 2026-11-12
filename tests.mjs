@@ -336,7 +336,7 @@ action('finishWeek');
 assert.equal(state().report.events.length,1);
 assert.equal(state().report.special,'Regional individual');
 assert.deepEqual(state().report.online,[]);
-assert.equal(state().report.expenses,195);
+assert.equal(state().report.expenses,195+state().report.economy.paid);
 assert.equal(state().report.activityDetails.participants.length,1);
 assert.ok(state().suspensions[0].events.includes('Dark Book'));
 tab('torneos');
@@ -396,7 +396,7 @@ for(const [id,definition] of Object.entries(openingRules.organizations)){
  assert.ok(openingRules.newOrganization(created,id,'Gestión',definition.ids.at(-1),[0,1],id==='haru'?3:null));
  assert.equal(created.team,id);
  assert.equal(created.identity,null);
- assert.equal(created.credits,100);
+ assert.equal(created.credits,220);
  const expected=id==='haru'?[18,3]:definition.ids;
  assert.deepEqual(created.active,expected);
  assert.equal(created.captain,definition.ids.at(-1));
@@ -423,19 +423,25 @@ for(const file of ['arena','mili-welcome','mili-explain','mili-surprise','mili-c
  const image=readFileSync(new URL('./public/assets/opening/'+file+'.webp',import.meta.url));
  assert.equal(image.toString('ascii',8,12),'WEBP');
 }
-console.log('OK: ocho organizaciones, capitán inicial, 100 CR, clasificación persistente y siete ilustraciones.');
+console.log('OK: ocho organizaciones, capitán inicial, 220 CR con fondo único, clasificación persistente y siete ilustraciones.');
 
 const contracts=await import('./career.js');
 assert.deepEqual(Array.from({length:5},(_,i)=>contracts.expansionMultiplier(i)),[1,1.4,1.9,2.5,3.2]);
-assert.ok(contracts.expansionMultiplier(8)>contracts.expansionMultiplier(5));
+assert.equal(contracts.expansionMultiplier(8),contracts.expansionMultiplier(5));
 const economy={...fresh(),xp:{},fatigue:{},morale:{},formatIndex:0,news:[],standings:Object.fromEntries(teams.map(t=>[t.id,0]))};
 openingRules.newOrganization(economy,'haru','Mánager',18,[],3);
 assert.equal(economy.organization.founder,18);
 assert.deepEqual(economy.active,[18,3]);
-assert.equal(economy.credits,100);
+assert.equal(economy.credits,220);
 assert.equal(contracts.contractLedger(economy).count,0);
 const [deal]=economy.offers;
-const originalQuote=contracts.offerQuote(economy,deal.ids);
+const social=await import('./social.js');
+ const scenes=await import('./dialogues.js');
+ social.startConversation(economy,deal.id,'amable','recruit');
+ const interview=scenes.events.find(e=>e.id===economy.social.active.event);
+ for(const step of interview.stages){social.answerConversation(economy,step.correct);social.continueConversation(economy);}
+ economy.social.active=null;
+ const originalQuote=contracts.offerQuote(economy,deal.ids);
 economy.credits=10000;
 assert.ok(contracts.recruit(economy,deal.id,formats[0],()=>0));
 assert.equal(economy.credits,10000-originalQuote.price);
@@ -454,9 +460,9 @@ for(let week=2;week<=14;week++){
  assert.equal(new Set(signed.map(s=>s.id)).size,signed.length);
  for(const item of signed){
   assert.equal(economy.owned[item.id],item.team);
-  assert.ok(item.price>0&&item.price<=(old[item.team]??100)+110);
+  assert.ok(item.foundation?item.price===0:item.price>0&&item.price<=(old[item.team]??100)+110);
   assert.ok(economy.rivalBudgets[item.team]>=0);
-  assert.equal(contracts.contractLedger(economy,item.team).lastWeek,week);
+  if(!item.foundation)assert.equal(contracts.contractLedger(economy,item.team).lastWeek,week);
  }
  const budgets={...economy.rivalBudgets};
  assert.deepEqual(openingRules.rivalRecruit(economy,()=>0),[]);
@@ -529,15 +535,15 @@ assert.equal(financeEngine.financeState(migrated).activeSince,11);
 console.log('OK: segundo Regional, activación, cargos, revisión, deuda y migración económica.');
 
 const haruFixture=()=>({...fresh(),xp:{},fatigue:{},morale:{},formatIndex:0,news:[],standings:Object.fromEntries(teams.map(t=>[t.id,0]))});
-assert.deepEqual(openingRules.haruRecruits.map(p=>p.id),players.filter(p=>p.id!==18&&p.stars<4.5).map(p=>p.id));
+assert.deepEqual(openingRules.haruRecruits.map(p=>p.id),players.filter(p=>!Object.values(openingRules.organizations).flatMap(o=>o.ids).includes(p.id)&&p.stars<4.5).map(p=>p.id));
 for(const id of [null,18,1,6])assert.equal(openingRules.newOrganization(haruFixture(),'haru','Mánager',18,[],id),false);
 const haruFree=haruFixture();
-assert.ok(openingRules.newOrganization(haruFree,'haru','Mánager',37,[],37));
-assert.deepEqual(haruFree.active,[18,37]);
-assert.equal(haruFree.owned[37],'haru');
-assert.equal(haruFree.captain,37);
-assert.equal(haruFree.credits,100);
+assert.ok(openingRules.newOrganization(haruFree,'haru','Mánager',19,[],19));
+assert.deepEqual(haruFree.active,[18,19]);
+assert.equal(haruFree.owned[19],'haru');
+assert.equal(haruFree.captain,19);
+assert.equal(haruFree.credits,220);
 assert.equal(contracts.contractLedger(haruFree).count,0);
 assert.ok(contracts.canSign(haruFree));
-assert.equal(JSON.parse(JSON.stringify(haruFree)).organization.freeSigning,37);
+assert.equal(JSON.parse(JSON.stringify(haruFree)).organization.freeSigning,19);
 console.log('OK: fichaje inicial de Haru, límite estricto de estrellas, sin duplicación ni costo.');
