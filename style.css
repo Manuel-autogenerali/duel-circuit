@@ -909,3 +909,79 @@ h2{font-size:clamp(1.2rem,2.3vw,1.55rem)}
  #app .career-top15 .primary-six { grid-template-columns: repeat(6,minmax(0,1fr)) minmax(0,1.45fr); }
  #app .career-top15 .primary-six > button, #app .career-top15 .primary-six .nav-finish15 { grid-column: span 1; }
 }
+
+/* Corrección de proporciones para teléfonos en vertical. */
+@media (max-width: 600px) {
+ :root { --mobile-gap: 6px; --mobile-pad: 8px; }
+
+ #app .career-top15 .top { min-height: 40px; padding-block: 0; }
+ .career-top15 { overflow-anchor: none; }
+ .career-top15 .logo { font-size: .875rem; }
+ .career-top15 .sub { margin-top: 1px; }
+ .career-top15 .header-tools15 { gap: 3px; }
+ .career-top15 .wallet-button15, .career-menu15 summary { min-height: 40px; }
+ .career-menu15 summary { min-width: 40px; }
+ #app .career-top15 .primary-six { gap: 2px; padding-block: 2px 3px; }
+ #app .career-top15 .primary-six > button { min-height: 38px; padding-block: 1px; }
+
+ #app .career-scrolled15 .primary-six {
+  grid-template-columns: repeat(6,minmax(0,1fr)) minmax(58px,1.45fr);
+ }
+ #app .career-scrolled15 .primary-six > button {
+  position: relative; grid-column: span 1; min-height: 42px;
+ }
+ #app .career-scrolled15 .primary-six .dc-icon { display: inline-block; width: 18px; height: 18px; }
+ .career-scrolled15 .career-nav-label15 {
+  position: absolute; width: 1px; height: 1px; margin: -1px;
+  overflow: hidden; clip-path: inset(50%); white-space: nowrap;
+ }
+ #app .career-scrolled15 .primary-six .nav-finish15 { grid-column: span 1; font-size: .75rem; }
+ .career-scrolled15 .finish-label15 { display: block; }
+ .career-scrolled15 .nav-finish15 .mobile-only15 { line-height: 1.1; }
+ .career-scrolled15 .finish-separator15 { display: none; }
+
+ .cinema-equipo .formation-slot { gap: 2px; padding: 2px; }
+ .cinema-equipo .formation-slot .lineup-role15 { min-height: 17px; }
+ .cinema-equipo .formation-slot .portrait-button { max-width: 61px; align-self: center; }
+ .cinema-equipo .formation-slot.position-2 .portrait-button { max-width: 69px; }
+ .cinema-equipo .formation-slot:is(.position-0,.position-4) .portrait-button { max-width: 53px; }
+ .cinema-equipo .formation-slot .vacancy { max-height: 43px; }
+ .cinema-equipo .formation-slot .fatigue15 { padding-block: 1px; }
+ .cinema-equipo .formation-slot .fatigue-label15 { display: inline; font-size: .65rem; }
+ .cinema-equipo .formation-slot .fatigue15 { font-size: .7rem; white-space: normal; }
+
+ .cinema-fichajes .candidate-card15 {
+  grid-template-columns: minmax(64px,33%) minmax(0,1fr);
+  grid-template-rows: auto 1fr; gap: 3px 8px; padding: 7px;
+ }
+ .candidate-card15 .candidate-portrait15 { max-width: 104px; justify-self: center; }
+ .candidate-card15 .candidate-info15 p { margin-block: 1px; }
+ .candidate-card15 .candidate-alias15, .candidate-card15 .candidate-cost15 .candidate-wallet15 { display: none; }
+ .candidate-card15 .candidate-cost15 div { padding-block: 1px; }
+ .candidate-card15 .candidate-info15 h3 { margin-block: 0 1px; }
+ .candidate-card15 .actions { gap: 4px; }
+ .candidate-card15 .actions .btn { padding-inline: 6px; }
+
+ .meta-summary15 dl { gap: 4px; }
+ .meta-summary15 dl > div { border-radius: 8px; padding: 4px 6px; }
+ .meta-summary15 dd { margin-top: 0; }
+ .cinema-meta .meta-chart15 { gap: 4px; padding: 6px; }
+ .cinema-meta #meta-charts15 { gap: 6px; }
+
+ .board-roster15 { grid-template-columns: repeat(auto-fit,minmax(67px,94px)); }
+ .board-roster15 .board-player15 { gap: 1px; }
+ .board-roster15 .board-player15 .avatar { width: min(100%,43px); }
+ .board-panel15 > .actions { margin-block-end: 0; }
+ .board-panel15 .cinema-event > p { margin-block: 3px; }
+
+ .character-activities15, .character-activity15 { padding: 4px; }
+ .character-report-identity15 { grid-template-columns: 49px minmax(0,1fr); padding: 6px; }
+ .character-round15 {
+  display: grid; grid-template-columns: auto auto minmax(0,1fr);
+  gap: 3px; padding: 3px 4px; align-items: baseline;
+ }
+ .character-round15 .round-opponent15 { grid-column: auto; }
+ .character-effects15 > div { padding: 3px 5px; }
+ .character-effects15 h5 { margin-bottom: 2px; }
+ .character-effects15 summary { min-height: 36px; }
+}

@@ -95,7 +95,22 @@ function cinemaBackdrop(scene){
  return `<picture class="cinema-backdrop" aria-hidden="true"><source media="(max-width: 640px)" srcset="${base}-mobile.webp"><img src="${base}.webp" alt="" decoding="async" fetchpriority="high"></picture>`;
 }
 let careerHeaderObserver;
+let compactCareerHeader=false;
+let headerScrollFrame;
+function updateCareerHeaderDensity(){
+ const scroll=globalThis.scrollY||0;
+ compactCareerHeader=scroll>(compactCareerHeader?32:104);
+ $('.career-top15')?.classList.toggle('career-scrolled15',compactCareerHeader);
+}
+globalThis.addEventListener?.('scroll',()=>{
+ if(headerScrollFrame!==undefined)return;
+ headerScrollFrame=requestAnimationFrame(()=>{
+  headerScrollFrame=undefined;
+  updateCareerHeaderDensity();
+ });
+},{passive:true});
 function measureCareerHeader(){
+ updateCareerHeaderDensity();
  if(typeof ResizeObserver==='undefined')return;
  careerHeaderObserver??=new ResizeObserver(([entry])=>{
   const header=entry.target;
@@ -684,7 +699,7 @@ function hiringDetails15(terms){
  return `<section class="hiring-ledger15"><h3>Detalle de contratación</h3>${terms.free?'<p class="hiring-free15">Fichaje fundacional gratuito</p>':''}<dl>${rows.map(([label,value])=>`<div class="${label==='Total a pagar ahora'?'hiring-total15':label==='Saldo después del fichaje'||label==='Balance ordinario previsto'?(value.startsWith('-')?'hiring-blocked15':'hiring-balance15'):''}"><dt>${label}</dt><dd>${value}</dd></div>`).join('')}</dl>${terms.reserved?`<p>Créditos reservados para la acción semanal: ${currency(terms.reserved)}. Se pagan al cerrar la semana.</p>`:''}${terms.blocked?`<p class="hiring-blocked15" role="status">${esc(terms.blocked)}</p>`:''}</section>`;
 }
 function candidateCard15(p,terms,action,label,status=''){
- const price=terms?`<dl class="candidate-cost15"><div><dt><span class="desktop-only15">Incorporación</span><span class="mobile-only15">Precio</span></dt><dd>${terms.free?'Gratis · ':''}${currency(terms.quote.price)}</dd></div><div><dt><span class="desktop-only15">Mantenimiento del plantel</span><span class="mobile-only15">Mantenimiento</span></dt><dd>${currency(terms.after)}<span class="desktop-only15">/semana</span><span class="mobile-only15">/sem.</span></dd></div><div><dt>Créditos disponibles</dt><dd>${currency(state.credits)}</dd></div>${terms.shortage?`<div class="hiring-blocked15"><dt>Déficit</dt><dd>${currency(terms.shortage)}</dd></div>`:''}</dl>`:'';
+ const price=terms?`<dl class="candidate-cost15"><div><dt><span class="desktop-only15">Incorporación</span><span class="mobile-only15">Precio</span></dt><dd>${terms.free?'Gratis · ':''}${currency(terms.quote.price)}</dd></div><div><dt><span class="desktop-only15">Mantenimiento del plantel</span><span class="mobile-only15">Mantenimiento</span></dt><dd>${currency(terms.after)}<span class="desktop-only15">/semana</span><span class="mobile-only15">/sem.</span></dd></div><div class="candidate-wallet15"><dt>Créditos disponibles</dt><dd>${currency(state.credits)}</dd></div>${terms.shortage?`<div class="hiring-blocked15"><dt>Déficit</dt><dd>${currency(terms.shortage)}</dd></div>`:''}</dl>`:'';
  return `<article class="duel-card candidate-card15 ${rating(p)>=4.5?'candidate-elite15':''}"><button class="candidate-portrait15" data-detail="${p.id}" aria-label="Ficha de ${esc(p.name)}">${avatar(p)}</button><div class="candidate-info15"><h3>${esc(p.name)}</h3><p class="candidate-alias15">${esc(p.alias)}</p><p class="candidate-rating15">${stars(rating(p))} · Afinidad ${affinity(p,currentFormat())}</p>${price}${terms?.ids.length>1?`<p>Contrato conjunto: ${terms.ids.map(id=>esc(getP(id).name)).join(', ')}</p>`:''}<p class="candidate-status15">${esc(status||(terms?.shortage?'Fondos insuficientes':terms?.blocked)||(update15(state).interviewWeek===state.week&&action!=='hireFoundation15'?'Cupo de entrevista utilizado':'Disponible'))}</p></div><div class="actions"><button class="btn ghost" data-detail="${p.id}">Ficha</button><button class="btn gold-button" data-action="${action}" data-id="${p.id}" ${!terms||terms.blocked||update15(state).interviewWeek===state.week&&action!=='hireFoundation15'?'disabled':''}>${label}</button></div></article>`;
 }
 function newMarket(compact=false){
@@ -1190,7 +1205,7 @@ function walletDetails15(){
 function header(){
  const progress=state.started?preparation15().size:0;
  const parent={archivo:'inicio',enciclopedia:'inicio',relaciones:'inicio',darkbook:'torneos',liga:'torneos',rankings:'torneos',informe:'inicio'}[tab]||tab;
- return `<div class="career-top15"><header class="top"><div class="career-identity15"><div class="logo">DUEL <span>CIRCUIT</span></div><div class="sub"><span class="desktop-only15">BETA 2.0 · </span>${state.started?esc(teamName(state.team))+' · Semana '+state.week:'Temporada 2027'}</div></div><div class="header-tools15">${state.started?`<div class="desktop-only15 header-links15"><button class="btn ghost" data-tab="inicio">Inicio</button><button class="btn ghost" data-tab="archivo">Ajustes</button></div><details class="mobile-only15 career-menu15"><summary aria-label="Menú de Inicio y Ajustes">☰</summary><div><button class="btn ghost" data-tab="inicio">Inicio</button><button class="btn ghost" data-tab="archivo">Ajustes</button></div></details><button class="wallet-button15" data-action="wallet15" aria-label="Créditos: ${currency(state.credits)}. Ver presupuesto">${walletBadge15()}</button>`:''}</div></header>${state.started?`<nav class="tabs primary-six" aria-label="Secciones principales">${primaryTabs().map(([key,label])=>`<button data-tab="${key}" class="${parent===key?'active':''}" aria-current="${parent===key?'page':'false'}">${icon15(key)} ${label}</button>`).join('')}<button class="nav-finish15" data-action="finishWeek" data-week="${state.week}" aria-label="Finalizar semana. ${progress} de 6 actividades"><span aria-hidden="true" class="desktop-only15">➜</span><span aria-hidden="true" class="desktop-only15">Finalizar semana<small>${progress}/6 actividades</small></span><span aria-hidden="true" class="mobile-only15">Terminar · ${progress}/6</span></button></nav>`:''}</div>`;
+ return `<div class="career-top15"><header class="top"><div class="career-identity15"><div class="logo">DUEL <span>CIRCUIT</span></div><div class="sub"><span class="desktop-only15">BETA 2.0 · </span>${state.started?esc(teamName(state.team))+' · Semana '+state.week:'Temporada 2027'}</div></div><div class="header-tools15">${state.started?`<div class="desktop-only15 header-links15"><button class="btn ghost" data-tab="inicio">Inicio</button><button class="btn ghost" data-tab="archivo">Ajustes</button></div><details class="mobile-only15 career-menu15"><summary aria-label="Menú de Inicio y Ajustes">☰</summary><div><button class="btn ghost" data-tab="inicio">Inicio</button><button class="btn ghost" data-tab="archivo">Ajustes</button></div></details><button class="wallet-button15" data-action="wallet15" aria-label="Créditos: ${currency(state.credits)}. Ver presupuesto">${walletBadge15()}</button>`:''}</div></header>${state.started?`<nav class="tabs primary-six" aria-label="Secciones principales">${primaryTabs().map(([key,label])=>`<button data-tab="${key}" class="${parent===key?'active':''}" aria-current="${parent===key?'page':'false'}">${icon15(key)} <span class="career-nav-label15">${label}</span></button>`).join('')}<button class="nav-finish15" data-action="finishWeek" data-week="${state.week}" aria-label="Finalizar semana. ${progress} de 6 actividades"><span aria-hidden="true" class="desktop-only15">➜</span><span aria-hidden="true" class="desktop-only15">Finalizar semana<small>${progress}/6 actividades</small></span><span aria-hidden="true" class="mobile-only15"><span class="finish-label15">Terminar</span><span class="finish-separator15"> · </span>${progress}/6</span></button></nav>`:''}</div>`;
 }
 function contextualButtons(){
  const choices={inicio:[['accion','Elegir acción'],['torneos','Ir a torneos'],['archivo','Partida y ajustes']],meta:[['noticias','Ver noticias'],['accion','Realizar acción semanal']],noticias:[['accion','Ir a acciones'],['torneos','Ver torneos']],accion:[['mercado','Ir a fichajes'],['torneos','Ver torneos']],mercado:[['inicio','Ver equipo'],['torneos','Ir a torneos']],torneos:[['inicio','Ver equipo'],['rankings','Consultar rankings'],['liga','Calendario y clasificación']],darkbook:[['torneos','Torneos presenciales'],['rankings','Ver rankings']],rankings:[['torneos','Ir a torneos'],['inicio','Ver equipo']],informe:[['inicio','Ver equipo'],['noticias','Noticias completas']]};
@@ -1676,4 +1691,4 @@ document.addEventListener('drop',event=>{
 
 
 render();
-if ("serviceWorker" in navigator && window.isSecureContext) navigator.serviceWorker.register("./sw.js").catch(console.warn);
+if ("serviceWorker" in navigator && window.isSecureContext) navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).catch(console.warn);
