@@ -738,3 +738,174 @@ h2{font-size:clamp(1.2rem,2.3vw,1.55rem)}
  .wallet-button15{font-size:.78rem;padding:.28rem .45rem}
  .wallet-button15 .credit-coin15{width:1.25rem;height:1.25rem}
 }
+
+/* Presentación de carrera en pantallas táctiles. */
+:root { scroll-padding-top: calc(var(--career-header-height, 0px) + .5rem); }
+.mobile-only15, .news-collapse15, .bulletin[open] .news-expand15 { display: none; }
+.header-links15 { display: flex; gap: .4rem; }
+.bulletin[open] .news-collapse15 { display: inline; }
+.news-read15 { color: #ffda92; font-size: .88rem; font-weight: 700; }
+.sr-only15 {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ margin: -1px;
+ padding: 0;
+ overflow: hidden;
+ clip-path: inset(50%);
+ white-space: nowrap;
+}
+.character-round15 > span:first-child { color: var(--red); }
+.round-won15 > span:first-child { color: var(--green); }
+
+@media (max-width: 820px), (max-width: 940px) and (max-height: 500px) and (orientation: landscape) {
+ :root { --mobile-gutter: clamp(7px, 2.2vw, 16px); --mobile-gap: .5rem; --mobile-pad: clamp(8px, 2.6vw, 16px); }
+ .mobile-only15 { display: revert; }
+ .desktop-only15 { display: none !important; }
+
+ #app .career-top15 { background: #211915; z-index: 125; }
+ #app .career-top15 .top { padding: 2px var(--mobile-gutter); min-height: 48px; gap: 4px; box-shadow: none; }
+ .career-identity15 { min-width: 0; }
+ .career-top15 .logo { font-size: 1rem; line-height: 1.1; letter-spacing: -.035em; }
+ .career-top15 .sub { font-size: .75rem; line-height: 1.15; margin-top: 2px; overflow-wrap: anywhere; }
+ .career-top15 .header-tools15 { display: flex; flex-wrap: nowrap; align-items: center; gap: 4px; }
+ .career-top15 .wallet-label15 { display: none; }
+ .career-top15 .wallet-button15 { min-height: 44px; gap: .25rem; padding: .2rem .45rem; font-size: .85rem; }
+ .career-top15 .credit-coin15 { width: 1.25rem; height: 1.25rem; }
+ .career-menu15 { position: relative; z-index: 2; }
+ .career-menu15 summary {
+  display: grid; place-items: center; min-width: 44px; min-height: 44px;
+  list-style: none; border: 1px solid #bc9a6866; border-radius: 8px;
+  background: #2d221c; color: #ffdfa5; cursor: pointer;
+ }
+ .career-menu15 summary::-webkit-details-marker { display: none; }
+ .career-menu15 > div {
+  position: absolute; inset: calc(100% + 4px) 0 auto auto; display: grid; gap: 4px;
+  width: 9rem; padding: 6px; border: 1px solid #bf985f; border-radius: 9px;
+  background: #2a201c; box-shadow: 0 10px 22px #0009;
+ }
+ #app .career-top15 .primary-six {
+  grid-template-columns: repeat(12, minmax(0,1fr)); padding: 3px var(--mobile-gutter) 5px; gap: 3px; overflow: visible;
+ }
+ #app .career-top15 .primary-six > button {
+  grid-column: span 3; min-width: 0; min-height: 44px; padding: 4px 2px;
+  font-size: clamp(.72rem, 2.9vw, .88rem); letter-spacing: 0; border-radius: 8px; line-height: 1.1;
+ }
+ #app .career-top15 .primary-six .dc-icon { width: .9em; height: .9em; }
+ #app .career-top15 .primary-six .nav-finish15 { grid-column: span 6; font-size: .875rem; }
+ .career-top15 :focus-visible { outline: 2px solid #ffe6ae; outline-offset: -3px; }
+
+ #app > .content { min-width: 0; padding: var(--mobile-gap) var(--mobile-gutter) 1rem; font-size: .94rem; line-height: 1.42; }
+ .content :is(.panel,.card) { padding: var(--mobile-pad); margin-bottom: var(--mobile-gap); border-radius: 12px; }
+ .content :is(.panel,.card) > :first-child:is(h1,h2,h3) { margin-top: 0; }
+ .content h1 { font-size: clamp(1.38rem, 5.2vw, 1.625rem); margin-bottom: .45rem; }
+ .content h2 { font-size: clamp(1.13rem, 4.3vw, 1.375rem); margin-block: .35rem .5rem; }
+ .content h3 { font-size: clamp(.94rem, 3.8vw, 1.125rem); }
+ .content .small { font-size: .8rem; }
+ .content :is(p,.actions) { margin-block: .35rem .5rem; }
+ .content .actions, .content .card-grid, .context-gold { gap: var(--mobile-gap); }
+ .content .btn, .dialog .btn, .career-menu15 .btn { min-height: 44px; padding: .4rem .6rem; font-size: .85rem; white-space: normal; line-height: 1.2; }
+ .content :is(button,summary,a), .dialog :is(button,summary,a) { overflow-wrap: anywhere; }
+ .dialogback { padding: max(.5rem, env(safe-area-inset-top)) max(.5rem, env(safe-area-inset-right)) max(.5rem, env(safe-area-inset-bottom)) max(.5rem, env(safe-area-inset-left)); }
+ .dialogback > .dialog { min-width: 0; max-height: 90dvh; padding: .75rem; overscroll-behavior: contain; overflow-wrap: anywhere; }
+
+ .cinema-equipo .formation-five { grid-template-columns: minmax(52px,.9fr) minmax(52px,1fr) minmax(58px,1.23fr) minmax(52px,1fr) minmax(52px,.9fr); gap: clamp(2px, 1vw, 8px); align-items: start; }
+ .cinema-equipo .formation-slot { padding: 3px; gap: 3px; border-radius: 8px; font-size: .75rem; }
+ .cinema-equipo .formation-slot .lineup-role15 { min-height: 1.25rem; font-size: clamp(.63rem, 2.7vw, .8rem); gap: 0; }
+ .cinema-equipo .lineup-role15 .dc-icon { display: none; }
+ .cinema-equipo .lineup-name15 { width: 100%; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+ .cinema-equipo .formation-slot :is(.stars,.fatigue15) { font-size: .75rem; white-space: nowrap; }
+ .cinema-equipo .formation-slot .fatigue15 { padding: 2px 0; line-height: 1.1; }
+ .fatigue-label15 { display: block; font-size: .68rem; }
+ .cinema-equipo .formation-slot .vacancy { aspect-ratio: 1; }
+ .cinema-equipo .formation-slot .portrait-button { min-height: 44px; }
+ .cinema-equipo .formation-slot .btn { min-height: 44px; font-size: 1.125rem; padding: 0; }
+ .cinema-equipo .position-2::before { width: 6px; height: 6px; top: -3px; left: calc(50% - 3px); }
+
+ .cinema-fichajes .candidate-grid15 { grid-template-columns: minmax(0,1fr); }
+ .cinema-fichajes .candidate-card15 {
+  display: grid; grid-template-columns: minmax(62px, 24%) minmax(0,1fr);
+  gap: 4px var(--mobile-gap); padding: var(--mobile-pad); align-items: start;
+ }
+ .candidate-card15 .candidate-portrait15 { grid-row: 1 / 3; width: 100%; align-self: start; }
+ .candidate-card15 .candidate-portrait15 .avatar { object-fit: cover; }
+ .candidate-info15 { min-width: 0; overflow-wrap: anywhere; }
+ .candidate-card15 .candidate-info15 p { margin: 2px 0; }
+ .candidate-card15 .candidate-cost15, .candidate-card15 .candidate-status15, .candidate-card15 .candidate-alias15 { font-size: .78rem; }
+ .candidate-card15 .candidate-cost15 div { padding: 2px 0; gap: 0 .35rem; }
+ .candidate-card15 .actions { margin: 0; }
+ .candidate-card15 .actions button { flex: 1 1 auto; }
+ .hiring-interview15 .conversation-portrait { position: static; }
+
+ .meta-summary15 dl { grid-template-columns: repeat(2,minmax(0,1fr)); gap: var(--mobile-gap); margin: 0; }
+ .meta-summary15 dl > div, .meta-readout15 { padding: .45rem .55rem; }
+ .meta-summary15 dd { font-size: .94rem; margin-top: .1rem; }
+ .meta-summary15 .meta-alert15 { flex-wrap: wrap; padding: .5rem; }
+ .cinema-meta .meta-chart15 { padding: var(--mobile-gutter); }
+ .cinema-meta .meta-node15 { min-height: 44px; min-width: 44px; font-size: .78rem; padding: 3px 5px; white-space: nowrap; }
+
+ .cinema-torneos .board-tabs15 { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 4px; margin: .4rem 0; }
+ .cinema-torneos .board-tabs15 button { min-height: 44px; padding: .3rem .2rem; gap: .22rem; }
+ .cinema-torneos .board-tabs15 .dc-icon { width: .9em; height: .9em; }
+ .board-roster15 { display: grid; grid-template-columns: repeat(auto-fit,minmax(76px,104px)); gap: 4px; margin: .4rem 0; }
+ .board-roster15 .board-player15 {
+  min-width: 0; max-width: none; gap: 2px; padding: .35rem .15rem;
+  font-size: .78rem; line-height: 1.15; overflow-wrap: anywhere;
+ }
+ .board-roster15 .board-player15 b > span { font: inherit; color: inherit; }
+ .board-roster15 .board-player15 .avatar { order: -2; width: min(100%,60px); aspect-ratio: 4/5; object-fit: cover; }
+ .board-roster15 .board-player15 strong { order: -1; }
+ .board-roster15 .board-player15 span, .board-roster15 .board-player15 b { font-size: .73rem; }
+ .board-selected15 { color: #f9d99d; font-size: .8rem; }
+ .cinema-torneos .cinema-event { padding: var(--mobile-pad); }
+ .event-requirements15 summary { min-height: 44px; align-content: center; cursor: pointer; }
+ .competition-guide .duel-card { padding: var(--mobile-pad); }
+ .competition-guide h3 { margin-bottom: .3rem; padding-bottom: .3rem; }
+
+ .character-reports15, .character-activities15 { gap: var(--mobile-gap); }
+ .character-report-identity15 {
+  grid-template-columns: clamp(54px,14vw,78px) minmax(0,1fr);
+  gap: var(--mobile-gap); padding: var(--mobile-pad);
+ }
+ .character-report-identity15 h3 { font-size: 1.05rem; margin-bottom: 4px; }
+ .character-facts15, .character-chips15 { gap: 3px; }
+ .character-facts15 span, .character-chips15 li { font-size: .75rem; padding: 2px 4px; }
+ .character-activities15, .character-activity15 { padding: var(--mobile-gap); }
+ .character-rounds15 { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 4px; margin: .4rem 0; }
+ .character-round15 { display: flex; flex-wrap: wrap; align-content: flex-start; gap: 2px 4px; padding: 4px; font-size: .75rem; }
+ .character-round15 .round-result15 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+ .character-round15 .round-opponent15 { min-width: 0; flex: 1 1 50px; }
+ .character-round15 .round-opponent15::before { content: "· "; }
+ .character-effects15 { grid-template-columns: minmax(0,1fr); gap: 4px; margin-top: .4rem; }
+ .character-effects15 > div { padding: .3rem .4rem; }
+ .character-effects15 summary { min-height: 44px; align-content: center; font-size: .8rem; cursor: pointer; }
+ .weekly-report .report-kpis { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 4px; }
+ .report-kpis .mini { padding: 5px; gap: 2px; }
+ .report-kpis .mini > span { font-size: .9rem; }
+ .report-kpis .mini small { font-size: .72rem; line-height: 1.2; }
+ .report-kpis .mini strong { font-size: clamp(.9rem, 3.8vw, 1.2rem); }
+
+ .cinema-noticias .cinema-masthead { padding: .55rem .65rem; margin-bottom: .45rem; }
+ .cinema-noticias .cinema-masthead h2 { font-size: 1.5rem; }
+ .cinema-noticias .bulletin { padding: .35rem .55rem; margin-block: .35rem; }
+ .cinema-noticias .bulletin summary { min-height: 44px; }
+ .cinema-noticias .bulletin h3 { margin-block: .2rem; }
+ .cinema-noticias .bulletin p { margin: .25rem 0; }
+ .cinema-noticias .news-character14 { grid-template-columns: minmax(45px,16%) minmax(0,1fr); gap: var(--mobile-gap); }
+ .cinema-noticias .news-character14 > img { width: 100%; height: auto; }
+
+ .cinema-acciones .cinema-activity > summary { min-height: 66px !important; padding-block: .45rem !important; }
+ #app > .footer { padding: .75rem var(--mobile-gutter); }
+}
+
+@media (min-width: 650px) and (max-width: 820px) {
+ .cinema-fichajes .candidate-grid15 { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 375px) {
+ #app .career-top15 .primary-six .dc-icon { display: none; }
+ .board-roster15 { grid-template-columns: repeat(auto-fit,minmax(68px,90px)); }
+}
+@media (max-width: 940px) and (max-height: 500px) and (orientation: landscape) {
+ #app .career-top15 .primary-six { grid-template-columns: repeat(6,minmax(0,1fr)) minmax(0,1.45fr); }
+ #app .career-top15 .primary-six > button, #app .career-top15 .primary-six .nav-finish15 { grid-column: span 1; }
+}
